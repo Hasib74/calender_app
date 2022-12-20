@@ -1,0 +1,296 @@
+{
+  "calender": [
+    {
+      "month": "dec",
+      "year": "2022",
+      "seasonal_image": "https://www.tbsnews.net/sites/default/files/styles/big_2/public/images/2019/12/15/winter_morning.jpg",
+      "data": [
+        {
+          "day": "fri",
+          "date": "1",
+          "event": "Birthday",
+          "isWeekend": "true",
+          "eventDescription": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).",
+          "eventImage": "https://nameoncakes.com/names/images/happy-birthday-rifat_c125f13c7c.jpg"
+        },
+        {
+          "day": "sat",
+          "date": "2",
+          "isWeekend": "true"
+        },
+        {
+          "day": "sun",
+          "date": "3"
+        },
+        {
+          "day": "mon",
+          "date": "4"
+        },
+        {
+          "day": "tue",
+          "date": "5"
+        },
+        {
+          "day": "wed",
+          "date": "6"
+        },
+        {
+          "day": "thu",
+          "date": "7"
+        },
+        {
+          "day": "fri",
+          "date": "8",
+          "isWeekend": "true"
+        },
+        {
+          "day": "sat",
+          "date": "9",
+          "isWeekend": "true"
+        },
+        {
+          "day": "sun",
+          "date": "10"
+        },
+        {
+          "day": "mon",
+          "date": "11"
+        },
+        {
+          "day": "tue",
+          "date": "12"
+        },
+        {
+          "day": "wed",
+          "date": "13"
+        },
+        {
+          "day": "thu",
+          "date": "14"
+        },
+        {
+          "day": "fri",
+          "date": "15",
+          "isWeekend": "true"
+        },
+        {
+          "day": "sat",
+          "date": "16",
+          "isWeekend": "true"
+        },
+        {
+          "day": "sun",
+          "date": "17"
+        },
+        {
+          "day": "mon",
+          "date": "18"
+        },
+        {
+          "day": "tue",
+          "date": "19"
+        },
+        {
+          "day": "wed",
+          "date": "20"
+        },
+        {
+          "day": "thu",
+          "date": "21"
+        },
+        {
+          "day": "fri",
+          "date": "22",
+          "isWeekend": "true"
+        },
+        {
+          "day": "sat",
+          "date": "23",
+          "isWeekend": "true"
+        },
+        {
+          "day": "sun",
+          "date": "24"
+        },
+        {
+          "day": "mon",
+          "date": "25"
+        },
+        {
+          "day": "tue",
+          "date": "26"
+        },
+        {
+          "day": "wed",
+          "date": "27",
+          "event": "Mother Day",
+          "eventDescription": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).",
+          "eventImage": "https://nameoncakes.com/names/images/happy-birthday-rifat_c125f13c7c.jpg"
+        },
+        {
+          "day": "thu",
+          "date": "28"
+        },
+        {
+          "day": "fri",
+          "date": "29",
+          "isWeekend": "true"
+        },
+        {
+          "day": "sat",
+          "date": "30",
+          "isWeekend": "true"
+        },
+        {
+          "date": "31",
+          "day": "sun",
+          "event": "New Year",
+          "eventDescription": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).",
+          "eventImage": "https://nameoncakes.com/names/images/happy-birthday-rifat_c125f13c7c.jpg"
+        }
+      ]
+    },
+    {
+      "month": "jan",
+      "year": "2022",
+      "seasonal_image": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Shaheed_Minar.JPG",
+      "data": [
+        {
+          "day": "mon",
+          "date": "1"
+        },
+        {
+          "day": "tue",
+          "date": "2"
+        },
+        {
+          "day": "wed",
+          "date": "3"
+        },
+        {
+          "day": "thu",
+          "date": "4"
+        },
+        {
+          "day": "fri",
+          "date": "5",
+          "isWeekend": "true"
+        },
+        {
+          "day": "sat",
+          "date": "6",
+          "isWeekend": "true"
+        },
+        {
+          "day": "sun",
+          "date": "7"
+        },
+        {
+          "day": "mon",
+          "date": "8"
+        },
+        {
+          "day": "tue",
+          "date": "9"
+        },
+        {
+          "day": "wed",
+          "date": "10"
+        },
+        {
+          "day": "thu",
+          "date": "11"
+        },
+        {
+          "day": "fri",
+          "date": "12",
+          "isWeekend": "true"
+        },
+        {
+          "day": "sat",
+          "date": "13",
+          "isWeekend": "true"
+        },
+        {
+          "day": "sun",
+          "date": "14"
+        },
+        {
+          "day": "mon",
+          "date": "15"
+        },
+        {
+          "day": "tue",
+          "date": "16"
+        },
+        {
+          "day": "wed",
+          "date": "17"
+        },
+        {
+          "day": "thu",
+          "date": "18"
+        },
+        {
+          "day": "fri",
+          "date": "19",
+          "isWeekend": "true"
+        },
+        {
+          "day": "sat",
+          "date": "20",
+          "isWeekend": "true"
+        },
+        {
+          "day": "sun",
+          "date": "21",
+          "event": "Mother language day",
+          "eventDescription": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).",
+          "eventImage": "https://nameoncakes.com/names/images/happy-birthday-rifat_c125f13c7c.jpg"
+        },
+        {
+          "day": "mon",
+          "date": "22"
+        },
+        {
+          "day": "tue",
+          "date": "23"
+        },
+        {
+          "day": "wed",
+          "date": "24"
+        },
+        {
+          "day": "thu",
+          "date": "25"
+        },
+        {
+          "day": "fri",
+          "date": "26",
+          "isWeekend": "true"
+        },
+        {
+          "day": "sat",
+          "date": "27",
+          "isWeekend": "true"
+        },
+        {
+          "day": "sun",
+          "date": "28"
+        },
+        {
+          "day": "mon",
+          "date": "29"
+        },
+        {
+          "day": "tue",
+          "date": "30"
+        },
+        {
+          "day": "wed",
+          "date": "31"
+        }
+      ]
+    }
+  ]
+}
