@@ -13,6 +13,8 @@ class DateViewWidget extends StatelessWidget {
   String? month;
   int? dayIndex;
 
+  String? music ;
+
   double? eventRoundPadding;
 
   Function(
@@ -20,6 +22,7 @@ class DateViewWidget extends StatelessWidget {
     String? eventImage,
     String? eventDescription,
     String? eventDate,
+      String? music
   ) onEventClick;
 
   DateViewWidget({
@@ -36,6 +39,7 @@ class DateViewWidget extends StatelessWidget {
     required this.onEventClick,
     this.dayIndex,
     this.eventRoundPadding = 8,
+    this.music
   });
 
   @override
@@ -54,13 +58,13 @@ class DateViewWidget extends StatelessWidget {
                 AppHelper.calenderDateToReadAbleDate(month) +
                 ", " +
                 year!;
-            onEventClick(event, image, description, _date);
+            onEventClick(event, image, description, _date , music);
           }
         },
         child: Container(
           margin: event != null || isToday == true
               ? EdgeInsets.all(eventRoundPadding!)
-              : EdgeInsets.all(0),
+              : const EdgeInsets.all(0),
           decoration: BoxDecoration(
               color: _backGroundColor(),
               shape: event != null || isToday == true

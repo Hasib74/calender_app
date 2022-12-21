@@ -1,7 +1,12 @@
-class AppHelper{
+import 'package:hsbc_calender/main.dart';
+import 'package:hsbc_calender/service/language_service.dart';
 
+class AppHelper {
+  static String calenderDateToReadAbleDate(String? month) {
+    if (languageService.language == Language.BN) {
+      return month!;
+    }
 
-  static  String calenderDateToReadAbleDate(String? month) {
     String? _month;
 
     print("month :: $month");

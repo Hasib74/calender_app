@@ -113,6 +113,7 @@ class Data {
     String? isWeekend,
     String? eventDescription,
     String? eventImage,
+    String? music,
   }) {
     _day = day;
     _date = date;
@@ -120,6 +121,7 @@ class Data {
     _isWeekend = isWeekend;
     _eventDescription = eventDescription;
     _eventImage = eventImage;
+    _music = music;
   }
 
   Data.fromJson(dynamic json) {
@@ -129,6 +131,7 @@ class Data {
     _isWeekend = json['isWeekend'];
     _eventDescription = json['eventDescription'];
     _eventImage = json['eventImage'];
+    _music = json['music'];
   }
 
   String? _day;
@@ -137,6 +140,8 @@ class Data {
   String? _isWeekend;
   String? _eventDescription;
   String? _eventImage;
+
+  String? _music;
 
   Data copyWith({
     String? day,
@@ -166,6 +171,8 @@ class Data {
   String? get eventDescription => _eventDescription;
 
   String? get eventImage => _eventImage;
+
+  String? get music => _music;
 
   Map<String, dynamic> toJson() {
     final map = <String, dynamic>{};

@@ -1,0 +1,563 @@
+{
+  "calender": [
+    {
+      "month": "চৈত্র",
+      "year": "১৪২৯",
+      "seasonal_image": "https://sarabangla.net/wp-content/uploads/2022/03/4-1.jpg",
+      "data": [
+        {
+          "day": "শুক্র",
+          "date": "১",
+          "isWeekend": "true",
+          "event": "Birthday",
+          "eventDescription": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).",
+          "eventImage": "https://nameoncakes.com/names/images/happy-birthday-rifat_c125f13c7c.jpg" ,
+          "music" : "https://downloadwap.com/content3/mp3tones/rtones/new/funny/happy_birthday_song-17583.mp3"
+
+        },
+        {
+          "day": "শনি",
+          "date": "২",
+          "isWeekend": "true"
+        },
+        {
+          "day": "রবি",
+          "date": "৩"
+        },
+        {
+          "day": "সোম",
+          "date": "৪",
+          "event": "শুভ জন্মদিন",
+          "eventDescription": " যদি আপনি প্রিয়জনকে জন্মদিনের মন জুড়ানো সব শুভ জন্মদিন শুভেচ্ছা এবং শুভ জন্মদিন এসএমএস পাঠানের কথা চিন্তা করেন তাহলে আমাদের লেখাটি অবশ্যই আপনার ভালো লাগবে. এখানে পাবেন জন্মদিরে এসএমএস এবং সকল সুন্দর সুন্দর শুভেচ্ছা বার্তা . দেরি না করে চলুন দেখা যাক আজকের আয়োজন .",
+          "eventImage": "https://banglasmsjokes.com/wp-content/uploads/2019/02/birthday-image-2-Copy.png" ,
+          "music" : "https://downloadwap.com/content3/mp3tones/rtones/new/funny/happy_birthday_song-17583.mp3"
+        },
+        {
+          "day": "মঙ্গল",
+          "date": "৫"
+        },
+        {
+          "day": "বুধ",
+          "date": "৬"
+        },
+        {
+          "day": "বৃহঃ",
+          "date": "৭"
+        },
+        {
+          "day": "শুক্র",
+          "date": "৮",
+          "isWeekend": "true"
+        },
+        {
+          "day": "শনি",
+          "date": "৯",
+          "isWeekend": "true"
+        },
+        {
+          "day": "রবি",
+          "date": "১০"
+        },
+        {
+          "day": "সোম",
+          "date": "১১"
+        },
+        {
+          "day": "মঙ্গল",
+          "date": "১২"
+        },
+        {
+          "day": "বুধ",
+          "date": "১৩"
+        },
+        {
+          "day": "বৃহঃ",
+          "date": "১৪"
+        },
+        {
+          "day": "শুক্র",
+          "date": "১৫",
+          "isWeekend": "true"
+        },
+        {
+          "day": "শনি",
+          "date": "১৬",
+          "isWeekend": "true"
+        },
+        {
+          "day": "রবি",
+          "date": "১৭"
+        },
+        {
+          "day": "সোম",
+          "date": "১৮"
+        },
+        {
+          "day": "মঙ্গল",
+          "date": "১৯"
+        },
+        {
+          "day": "বুধ",
+          "date": "২০"
+        },
+        {
+          "day": "বৃহঃ",
+          "date": "২১"
+        },
+        {
+          "day": "শুক্র",
+          "date": "২২",
+          "isWeekend": "true"
+        },
+        {
+          "day": "শনি",
+          "date": "২৩",
+          "isWeekend": "true"
+        },
+        {
+          "day": "রবি",
+          "date": "২৪"
+        },
+        {
+          "day": "সোম",
+          "date": "২৫"
+        },
+        {
+          "day": "মঙ্গল",
+          "date": "২৬"
+        },
+        {
+          "day": "বুধ",
+          "date": "২৭"
+        },
+        {
+          "day": "বৃহঃ",
+          "date": "২৮"
+        },
+        {
+          "day": "শুক্র",
+          "date": "২৯",
+          "isWeekend": "true"
+        },
+        {
+          "day": "শনি",
+          "date": "৩০",
+          "isWeekend": "true"
+        }
+      ]
+    },
+    {
+      "month": "বৈশাখ",
+      "year": "১৪২৯",
+      "seasonal_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZrjPlqxLka_0XVQTzv4VhwOq_BaVwfJ813bub3zDmtX8UE5zg2doOQDLHjBz7vdzbgCk&usqp=CAU",
+      "data": [
+        {
+          "day": "বৃহঃ",
+          "date": "১",
+          "event": "পহেলা বৈশাখ",
+          "eventDescription": "পহেলা বৈশাখ বা পয়লা বৈশাখ (বাংলা পঞ্জিকার প্রথম মাস বৈশাখের ১ তারিখ) বঙ্গাব্দের প্রথম দিন, তথা বাংলা নববর্ষ। দিনটি সকল বাঙালি জাতির ঐতিহ্যবাহী বর্ষবরণের দিন। দিনটি বাংলাদেশ এবং ভারতের পশ্চিমবঙ্গে নববর্ষ হিসেবে বিশেষ উৎসবের সাথে পালিত হয়। ত্রিপুরায় বসবাসরত বাঙালিরাও এই উৎসবে অংশ নিয়ে থাকে। পহেলা বৈশাখ বাংলাদেশে জাতীয় উৎসব হিসেবে পালিত হয়ে থাকে। সে হিসেবে এটি বাঙালিদের একটি সর্বজনীন লোকউৎসব হিসাবে বিবেচিত।[১]",
+          "eventImage": "https://upload.wikimedia.org/wikipedia/commons/5/53/Pohela_boishakh_10.jpg",
+          "music": "https://episodebd.com/files/Bangla_new_Album_Mp3_Song/Pohela_Boishakh_Mp3_Song_Album_all_Hit_Song/Praner_Boishakh_By_Bushra_Shahriar_BDLove24.Com.mp3"
+        },
+        {
+          "day": "শুক্র",
+          "date": "২",
+          "isWeekend": "true"
+        },
+        {
+          "day": "শনি",
+          "date": "৩",
+          "isWeekend": "true"
+        },
+        {
+          "day": "রবি",
+          "date": "৪"
+        },
+        {
+          "day": "সোম",
+          "date": "৫"
+        },
+        {
+          "day": "মঙ্গল",
+          "date": "৬"
+        },
+        {
+          "day": "বুধ",
+          "date": "৭"
+        },
+        {
+          "day": "বৃহঃ",
+          "date": "৮"
+        },
+        {
+          "day": "শুক্র",
+          "date": "৯",
+          "isWeekend": "true"
+        },
+        {
+          "day": "শনি",
+          "date": "১০",
+          "isWeekend": "true"
+        },
+        {
+          "day": "রবি",
+          "date": "১১"
+        },
+        {
+          "day": "সোম",
+          "date": "১২"
+        },
+        {
+          "day": "মঙ্গল",
+          "date": "১৩"
+        },
+        {
+          "day": "বুধ",
+          "date": "১৪"
+        },
+        {
+          "day": "বৃহঃ",
+          "date": "১৫"
+        },
+        {
+          "day": "শুক্র",
+          "date": "১৬",
+          "isWeekend": "true"
+        },
+        {
+          "day": "শনি",
+          "date": "১৭",
+          "isWeekend": "true"
+        },
+        {
+          "day": "রবি",
+          "date": "১৮"
+        },
+        {
+          "day": "সোম",
+          "date": "১৯"
+        },
+        {
+          "day": "মঙ্গল",
+          "date": "২০"
+        },
+        {
+          "day": "বুধ",
+          "date": "২১"
+        },
+        {
+          "day": "বৃহঃ",
+          "date": "২২"
+        },
+        {
+          "day": "শুক্র",
+          "date": "২৩",
+          "isWeekend": "true"
+        },
+        {
+          "day": "শনি",
+          "date": "২৪",
+          "isWeekend": "true"
+        },
+        {
+          "day": "রবি",
+          "date": "২৫"
+        },
+        {
+          "day": "সোম",
+          "date": "২৬"
+        },
+        {
+          "day": "মঙ্গল",
+          "date": "২৭"
+        },
+        {
+          "day": "বুধ",
+          "date": "২৮"
+        },
+        {
+          "day": "বৃহঃ",
+          "date": "২৯"
+        },
+        {
+          "day": "শুক্র",
+          "date": "৩০",
+          "isWeekend": "true"
+        }
+      ]
+    },
+    {
+      "month": "জ্যৈষ্ঠ",
+      "year": "১৪২৯",
+      "seasonal_image": "https://premiumfruits.xyz/wp-content/uploads/2021/05/Amrupali-Mango.jpg",
+      "data": [
+        {
+          "day": "শনি",
+          "date": "১"
+        },
+        {
+          "day": "রবি",
+          "date": "২"
+        },
+        {
+          "day": "সোম",
+          "date": "৩"
+        },
+        {
+          "day": "মঙ্গল",
+          "date": "৪"
+        },
+        {
+          "day": "বুধ",
+          "date": "৫"
+        },
+        {
+          "day": "বৃহঃ",
+          "date": "৬"
+        },
+        {
+          "day": "শুক্র",
+          "date": "৭",
+          "isWeekend": "true"
+        },
+        {
+          "day": "শনি",
+          "date": "৮",
+          "isWeekend": "true"
+        },
+        {
+          "day": "রবি",
+          "date": "৯"
+        },
+        {
+          "day": "সোম",
+          "date": "১০"
+        },
+        {
+          "day": "মঙ্গল",
+          "date": "১১"
+        },
+        {
+          "day": "বুধ",
+          "date": "১২"
+        },
+        {
+          "day": "বৃহঃ",
+          "date": "১৩"
+        },
+        {
+          "day": "শুক্র",
+          "date": "১৪",
+          "isWeekend": "true"
+        },
+        {
+          "day": "শনি",
+          "date": "১৫",
+          "isWeekend": "true"
+        },
+        {
+          "day": "রবি",
+          "date": "১৬"
+        },
+        {
+          "day": "সোম",
+          "date": "১৭"
+        },
+        {
+          "day": "মঙ্গল",
+          "date": "১৮"
+        },
+        {
+          "day": "বুধ",
+          "date": "১৯"
+        },
+        {
+          "day": "বৃহঃ",
+          "date": "২০"
+        },
+        {
+          "day": "শুক্র",
+          "date": "২১",
+          "isWeekend": "true"
+        },
+        {
+          "day": "শনি",
+          "date": "২২",
+          "isWeekend": "true"
+        },
+        {
+          "day": "রবি",
+          "date": "২৩"
+        },
+        {
+          "day": "সোম",
+          "date": "২৪"
+        },
+        {
+          "day": "মঙ্গল",
+          "date": "২৫"
+        },
+        {
+          "day": "বুধ",
+          "date": "২৬"
+        },
+        {
+          "day": "বৃহঃ",
+          "date": "২৭"
+        },
+        {
+          "day": "শুক্র",
+          "date": "২৮",
+          "isWeekend": "true"
+        },
+        {
+          "day": "শনি",
+          "date": "২৯"
+        },
+        {
+          "day": "রবি",
+          "date": "৩০"
+        },
+        {
+          "day": "সোম",
+          "date": "৩১"
+        }
+      ]
+    },
+    {
+      "month": "আষাঢ়",
+      "year": "১৪২৯",
+      "seasonal_image": "https://www.jugantor.com/assets/news_photos/2021/06/15/image-431570-1623707519.jpg",
+      "data": [
+        {
+          "day": "মঙ্গল",
+          "date": "১"
+        },
+        {
+          "day": "বুধ",
+          "date": "২"
+        },
+        {
+          "day": "বৃহঃ",
+          "date": "৩"
+        },
+        {
+          "day": "শুক্র",
+          "date": "৪",
+          "isWeekend": "true"
+        },
+        {
+          "day": "শনি",
+          "date": "৫",
+          "isWeekend": "true"
+        },
+        {
+          "day": "রবি",
+          "date": "৬"
+        },
+        {
+          "day": "সোম",
+          "date": "৭"
+        },
+        {
+          "day": "মঙ্গল",
+          "date": "৮"
+        },
+        {
+          "day": "বুধ",
+          "date": "৯"
+        },
+        {
+          "day": "বৃহঃ",
+          "date": "১০"
+        },
+        {
+          "day": "শুক্র",
+          "date": "১১",
+          "isWeekend": "true"
+        },
+        {
+          "day": "শনি",
+          "date": "১২",
+          "isWeekend": "true"
+        },
+        {
+          "day": "রবি",
+          "date": "১৩"
+        },
+        {
+          "day": "সোম",
+          "date": "১৪"
+        },
+        {
+          "day": "মঙ্গল",
+          "date": "১৫"
+        },
+        {
+          "day": "বুধ",
+          "date": "১৬"
+        },
+        {
+          "day": "বৃহঃ",
+          "date": "১৭"
+        },
+        {
+          "day": "শুক্র",
+          "date": "১৮",
+          "isWeekend": "true"
+        },
+        {
+          "day": "শনি",
+          "date": "১৯",
+          "isWeekend": "true"
+        },
+        {
+          "day": "রবি",
+          "date": "২০"
+        },
+        {
+          "day": "সোম",
+          "date": "২১"
+        },
+        {
+          "day": "মঙ্গল",
+          "date": "২২"
+        },
+        {
+          "day": "বুধ",
+          "date": "২৩"
+        },
+        {
+          "day": "বৃহঃ",
+          "date": "২৪"
+        },
+        {
+          "day": "শুক্র",
+          "date": "২৫",
+          "isWeekend": "true"
+        },
+        {
+          "day": "শনি",
+          "date": "২৬",
+          "isWeekend": "true"
+        },
+        {
+          "day": "রবি",
+          "date": "২৭"
+        },
+        {
+          "day": "সোম",
+          "date": "২৮"
+        },
+        {
+          "day": "মঙ্গল",
+          "date": "২৯"
+        },
+        {
+          "day": "বুধ",
+          "date": "৩০"
+        }
+      ]
+    }
+  ]
+}

@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:just_audio/just_audio.dart';
 
-class EventDetailsScreen extends StatelessWidget {
+class EventDetailsScreen extends StatefulWidget {
   String? event;
 
   String? eventDate;
@@ -9,12 +10,74 @@ class EventDetailsScreen extends StatelessWidget {
 
   String? eventImage;
 
+  String? music;
+
   EventDetailsScreen(
-      {Key? key, this.event, this.eventDate, this.eventDes, this.eventImage})
+      {Key? key,
+      this.event,
+      this.eventDate,
+      this.eventDes,
+      this.eventImage,
+      this.music})
       : super(key: key);
 
   @override
+  State<EventDetailsScreen> createState() => _EventDetailsScreenState();
+}
+
+class _EventDetailsScreenState extends State<EventDetailsScreen> {
+  AudioPlayer? _player;
+
+  @override
+  void initState() {
+    // TODO: implement initState
+
+    _player = AudioPlayer();
+
+    _loadMusic().then((value) {
+      if (_player != null) {
+        _player!.play();
+      }
+    });
+
+    super.initState();
+  }
+
+  @override
+  void dispose() {
+    // TODO: implement dispose
+
+    if (_player != null) {
+      _player!.stop();
+      _player!.dispose();
+    }
+    super.dispose();
+  }
+
+  @override
+  void didChangeDependencies() {
+    // TODO: implement didChangeDependencies
+    super.didChangeDependencies();
+  }
+
+  @override
+  void didUpdateWidget(covariant EventDetailsScreen oldWidget) {
+    // TODO: implement didUpdateWidget
+
+    _player = AudioPlayer();
+
+    _loadMusic().then((value) {
+      if (_player != null) {
+        _player!.play();
+      }
+    });
+
+    super.didUpdateWidget(oldWidget);
+  }
+
+  @override
   Widget build(BuildContext context) {
+    print("Music url : ${widget.music}");
     return Scaffold(
       body: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
@@ -28,7 +91,7 @@ class EventDetailsScreen extends StatelessWidget {
                     Positioned.fill(
                         child: Image(
                             fit: BoxFit.cover,
-                            image: NetworkImage(eventImage!))),
+                            image: NetworkImage(widget.eventImage!))),
                     Positioned(
                       top: 16 * 2,
                       left: 16,
@@ -65,14 +128,14 @@ class EventDetailsScreen extends StatelessWidget {
                   height: 16,
                 ),
                 Text(
-                  event!,
+                  widget.event!,
                   style: Theme.of(context).textTheme.headline1,
                 ),
                 SizedBox(
                   height: 10,
                 ),
                 Text(
-                  eventDate!,
+                  widget.eventDate!,
                   style: TextStyle(fontWeight: FontWeight.w500),
                 ),
                 SizedBox(
@@ -81,7 +144,7 @@ class EventDetailsScreen extends StatelessWidget {
                 Expanded(
                     child: SingleChildScrollView(
                   child: Text(
-                    eventDes!,
+                    widget.eventDes!,
                     style: TextStyle(fontWeight: FontWeight.w300, height: 1.3),
                   ),
                 )),
@@ -91,5 +154,9 @@ class EventDetailsScreen extends StatelessWidget {
         ],
       ),
     );
+  }
+
+  Future _loadMusic() async {
+    _player!.setUrl(widget.music!);
   }
 }

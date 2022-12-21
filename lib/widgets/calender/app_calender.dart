@@ -4,16 +4,21 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:hsbc_calender/data/calender_model.dart';
 import 'package:hsbc_calender/sceen/year_calender_screen.dart';
+import 'package:hsbc_calender/service/language_service.dart';
 import 'package:hsbc_calender/widgets/calender/calendar_view.dart';
 import 'package:intl/intl.dart';
 
 import '../../helper/app_helper.dart';
+import '../../main.dart';
 import '../date_view.dart';
 
 class AppCalender extends StatefulWidget {
+  Language? language;
+
   Calender? calender;
 
-  AppCalender({Key? key, required this.calender}) : super(key: key);
+  AppCalender({Key? key, required this.calender, required this.language})
+      : super(key: key);
 
   @override
   State<AppCalender> createState() => _AppCalenderState();
@@ -28,7 +33,9 @@ class _AppCalenderState extends State<AppCalender> {
     );
   }
 
-  List<String> days = ["SUN", "MON", "TUE", "WED", "THU", "FRI", "SAT"];
+  // List<String> days = wi == Language.BN
+  //     ? ["রবি", "সোম", "মঙ্গল", "বুধ", "বৃহঃ", "শুক্র", "শনি"]
+  //     : ["SUN", "MON", "TUE", "WED", "THU", "FRI", "SAT"];
 
   DateTime today = DateTime.now();
 
@@ -67,10 +74,12 @@ class _AppCalenderState extends State<AppCalender> {
               child: Row(
                 children: [
                   Text(
-                    AppHelper.calenderDateToReadAbleDate(
-                            widget.calender!.month) +
-                        ", " +
-                        widget.calender!.year!,
+                    languageService.language == Language.EN
+                        ? AppHelper.calenderDateToReadAbleDate(
+                            widget.calender!.month)
+                        : "${widget.calender!.month}" +
+                            ", " +
+                            widget.calender!.year!,
                     style: TextStyle(fontSize: 16, fontWeight: FontWeight.w500),
                   ),
                   Spacer(),
@@ -82,7 +91,7 @@ class _AppCalenderState extends State<AppCalender> {
                               builder: (context) => YearCalenderScreen()));
                     },
                     child: Text(
-                      "Year at a glance",
+                     widget.language == Language.EN ?  "Year at a glance" : "বছরের এক নজরে",
                       style: TextStyle(
                         fontSize: 12,
                         fontWeight: FontWeight.w300,
@@ -108,6 +117,7 @@ class _AppCalenderState extends State<AppCalender> {
                 : Expanded(
                     flex: 2,
                     child: AppCalendarView(
+                      language: widget.language,
                       calender: widget.calender!,
                       month: widget.calender!.month,
                       year: widget.calender!.year,

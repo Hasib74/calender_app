@@ -2,7 +2,9 @@ import 'package:flutter/material.dart';
 import 'package:hsbc_calender/data/calender_model.dart';
 import 'package:intl/intl.dart';
 
+import '../../main.dart';
 import '../../sceen/event_details_screen.dart';
+import '../../service/language_service.dart';
 import '../date_view.dart';
 
 class AppCalendarView extends StatefulWidget {
@@ -12,17 +14,18 @@ class AppCalendarView extends StatefulWidget {
 
   double? eventRoundPadding;
 
-
   bool isTwelveMonth = false;
+
+  Language? language;
 
   AppCalendarView(
       {Key? key,
       required this.calender,
       this.month,
       this.year,
-      this.isTwelveMonth = false ,
-      this.eventRoundPadding = 8
-      })
+      this.isTwelveMonth = false,
+      this.language,
+      this.eventRoundPadding = 8})
       : super(key: key);
 
   @override
@@ -46,12 +49,19 @@ class _AppCalendarViewState extends State<AppCalendarView> {
   void initState() {
     // TODO: implement initState
 
-    days = ["SUN", "MON", "TUE", "WED", "THU", "FRI", "SAT"];
+    days = languageService.language == Language.BN
+        ? ["রবি", "সোম", "মঙ্গল", "বুধ", "বৃহঃ", "শুক্র", "শনি"]
+        : ["SUN", "MON", "TUE", "WED", "THU", "FRI", "SAT"];
     super.initState();
   }
 
   @override
   Widget build(BuildContext context) {
+    if (widget.language != null) {
+      days = widget.language == Language.BN
+          ? ["রবি", "সোম", "মঙ্গল", "বুধ", "বৃহঃ", "শুক্র", "শনি"]
+          : ["SUN", "MON", "TUE", "WED", "THU", "FRI", "SAT"];
+    }
     return _calender_view();
   }
 
@@ -88,7 +98,7 @@ class _AppCalendarViewState extends State<AppCalendarView> {
                 if (index <= 6) {
                   if (day.toLowerCase() == days![index].toLowerCase()) {
                     _widget = _widget = DateViewWidget(
-                        eventRoundPadding: widget.eventRoundPadding,
+                      eventRoundPadding: widget.eventRoundPadding,
                       date: _data[dateIndex].date.toString(),
                       isWeekend: _data[dateIndex].isWeekend,
                       day: _data[dateIndex].day,
@@ -99,6 +109,7 @@ class _AppCalendarViewState extends State<AppCalendarView> {
                       onEventClick: _handleEventClick,
                       month: widget.month,
                       year: widget.year,
+                      music: _data[dateIndex].music,
                     );
 
                     dateIndex += 1;
@@ -109,7 +120,6 @@ class _AppCalendarViewState extends State<AppCalendarView> {
                   } else if (dateIndex != 0) {
                     _widget = DateViewWidget(
                       eventRoundPadding: widget.eventRoundPadding,
-
                       date: _data[dateIndex].date.toString(),
                       isWeekend: _data[dateIndex].isWeekend,
                       day: _data[dateIndex].day,
@@ -120,6 +130,7 @@ class _AppCalendarViewState extends State<AppCalendarView> {
                       onEventClick: _handleEventClick,
                       month: widget.month,
                       year: widget.year,
+                      music: _data[dateIndex].music,
                     );
 
                     dateIndex += 1;
@@ -132,7 +143,6 @@ class _AppCalendarViewState extends State<AppCalendarView> {
                   if (_data.asMap().keys.contains(dateIndex)) {
                     _widget = DateViewWidget(
                       eventRoundPadding: widget.eventRoundPadding,
-
                       date: _data[dateIndex].date.toString(),
                       isWeekend: _data[dateIndex].isWeekend,
                       day: _data[dateIndex].day,
@@ -143,6 +153,7 @@ class _AppCalendarViewState extends State<AppCalendarView> {
                       onEventClick: _handleEventClick,
                       month: widget.month,
                       year: widget.year,
+                      music: _data[dateIndex].music,
                     );
 
                     print("dateIndex :: $dateIndex");
@@ -163,7 +174,7 @@ class _AppCalendarViewState extends State<AppCalendarView> {
   }
 
   _handleEventClick(String? event, String? eventImage, String? eventDescription,
-      String? eventDate) {
+      String? eventDate, String? music) {
     print("Event : $event");
     print("Event Image : $eventImage");
     print("Event Description : $eventDescription");
@@ -181,6 +192,7 @@ class _AppCalendarViewState extends State<AppCalendarView> {
                         eventImage: eventImage,
                         eventDes: eventDescription,
                         eventDate: eventDate,
+                        music: music,
                       )));
             },
             child: Container(
