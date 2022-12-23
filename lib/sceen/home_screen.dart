@@ -19,8 +19,8 @@ class _HomeScreenState extends State<HomeScreen> {
   Future<void> readJson() async {
     final String response = await rootBundle.loadString(
         languageService.language == Language.EN
-            ? 'assets/json/calender.json'
-            : 'assets/json/calenderbn.json');
+            ? 'assets/json/date_en.json'
+            : 'assets/json/date_bn.json');
 
     setState(() {
       calenderModel = CalenderModel.fromJson(jsonDecode(response));

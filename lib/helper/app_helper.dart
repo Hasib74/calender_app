@@ -11,7 +11,7 @@ class AppHelper {
 
     print("month :: $month");
 
-    switch (month) {
+    switch (month.toString().toLowerCase()) {
       case "jan":
         _month = "January";
         break;

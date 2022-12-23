@@ -1,0 +1,1736 @@
+{
+  "calender": [
+    {
+      "month": "Jan",
+      "year": "2023",
+      "seasonal_image": "https://www.dhakatimes24.com/assets/news_photos/2022/01/21/image-246922.jpg",
+      "data": [
+        {
+          "day": "Sun",
+          "date": "1"
+        },
+        {
+          "day": "Mon",
+          "date": "2"
+        },
+        {
+          "day": "Tue",
+          "date": "3"
+        },
+        {
+          "day": "Wed",
+          "date": "4"
+        },
+        {
+          "day": "Thu",
+          "date": "5"
+        },
+        {
+          "day": "Fri",
+          "date": "6",
+          "isWeekend": "true"
+        },
+        {
+          "day": "Sat",
+          "date": "7",
+          "isWeekend": "true"
+        },
+        {
+          "day": "Sun",
+          "date": "8"
+        },
+        {
+          "day": "Mon",
+          "date": "9"
+        },
+        {
+          "day": "Tue",
+          "date": "10"
+        },
+        {
+          "day": "Wed",
+          "date": "11"
+        },
+        {
+          "day": "Thu",
+          "date": "12"
+        },
+        {
+          "day": "Fri",
+          "date": "13",
+          "isWeekend": "true"
+        },
+        {
+          "day": "Sat",
+          "date": "14",
+          "isWeekend": "true"
+        },
+        {
+          "day": "Sun",
+          "date": "15"
+        },
+        {
+          "day": "Mon",
+          "date": "16"
+        },
+        {
+          "day": "Tue",
+          "date": "17"
+        },
+        {
+          "day": "Wed",
+          "date": "18"
+        },
+        {
+          "day": "Thu",
+          "date": "19"
+        },
+        {
+          "day": "Fri",
+          "date": "20",
+          "isWeekend": "true"
+        },
+        {
+          "day": "Sat",
+          "date": "21",
+          "isWeekend": "true"
+        },
+        {
+          "day": "Sun",
+          "date": "22"
+        },
+        {
+          "day": "Mon",
+          "date": "23"
+        },
+        {
+          "day": "Tue",
+          "date": "24"
+        },
+        {
+          "day": "Wed",
+          "date": "25"
+        },
+        {
+          "day": "Thu",
+          "date": "26"
+        },
+        {
+          "day": "Fri",
+          "date": "27",
+          "isWeekend": "true"
+        },
+        {
+          "day": "Sat",
+          "date": "28",
+          "isWeekend": "true"
+        },
+        {
+          "day": "Sun",
+          "date": "29"
+        },
+        {
+          "day": "Mon",
+          "date": "30"
+        },
+        {
+          "day": "Tue",
+          "date": "31"
+        }
+      ]
+    },
+    {
+      "month": "Feb",
+      "year": "2023",
+      "seasonal_image": "https://sylheterdak.com.bd/files/uploads/2022/04/image-393112-1613250400.jpg",
+      "data": [
+        {
+          "day": "Wed",
+          "date": "1"
+        },
+        {
+          "day": "Thu",
+          "date": "2"
+        },
+        {
+          "day": "Fri",
+          "date": "3",
+          "isWeekend": "true"
+        },
+        {
+          "day": "Sat",
+          "date": "4",
+          "isWeekend": "true"
+        },
+        {
+          "day": "Sun",
+          "date": "5"
+        },
+        {
+          "day": "Mon",
+          "date": "6"
+        },
+        {
+          "day": "Tue",
+          "date": "7"
+        },
+        {
+          "day": "Wed",
+          "date": "8"
+        },
+        {
+          "day": "Thu",
+          "date": "9"
+        },
+        {
+          "day": "Fri",
+          "date": "10",
+          "isWeekend": "true"
+        },
+        {
+          "day": "Sat",
+          "date": "11",
+          "isWeekend": "true"
+        },
+        {
+          "day": "Sun",
+          "date": "12"
+        },
+        {
+          "day": "Mon",
+          "date": "13"
+        },
+        {
+          "day": "Tue",
+          "date": "14"
+        },
+        {
+          "day": "Wed",
+          "date": "15"
+        },
+        {
+          "day": "Thu",
+          "date": "16"
+        },
+        {
+          "day": "Fri",
+          "date": "17",
+          "isWeekend": "true"
+        },
+        {
+          "day": "Sat",
+          "date": "18",
+          "isWeekend": "true"
+        },
+        {
+          "day": "Sun",
+          "date": "19"
+        },
+        {
+          "day": "Mon",
+          "date": "20"
+        },
+        {
+          "day": "Tue",
+          "date": "21",
+          "event": "Shaheed Day",
+          "eventDescription": "Bangladesh celebrates Shaheed Day on 21 February each year. This is a very solemn holiday that remembers the bravery and death of Dhaka University students who fought to keep Bengali as the national language. It is a day of national mourning to honour the memory of the nation’s “martyrs”.",
+          "eventImage": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Shaheed_Minar.JPG",
+          "music": ""
+        },
+        {
+          "day": "Wed",
+          "date": "22"
+        },
+        {
+          "day": "Thu",
+          "date": "23"
+        },
+        {
+          "day": "Fri",
+          "date": "24",
+          "isWeekend": "true"
+        },
+        {
+          "day": "Sat",
+          "date": "25",
+          "isWeekend": "true"
+        },
+        {
+          "day": "Sun",
+          "date": "26"
+        },
+        {
+          "day": "Mon",
+          "date": "27"
+        },
+        {
+          "day": "Tue",
+          "date": "28"
+        }
+      ]
+    },
+    {
+      "month": "Mar",
+      "year": "2023",
+      "seasonal_image": "https://images.prothomalo.com/prothomalo%2Fimport%2Fmedia%2F2016%2F04%2F17%2Fc69da423e7332bd07fd5d5909f1bfaf7-15.jpg?auto=format%2Ccompress&format=webp&w=376&dpr=2.6",
+      "data": [
+        {
+          "day": "Wed",
+          "date": "1"
+        },
+        {
+          "day": "Thu",
+          "date": "2"
+        },
+        {
+          "day": "Fri",
+          "date": "3",
+          "isWeekend": "true"
+        },
+        {
+          "day": "Sat",
+          "date": "4",
+          "isWeekend": "true"
+        },
+        {
+          "day": "Sun",
+          "date": "5"
+        },
+        {
+          "day": "Mon",
+          "date": "6"
+        },
+        {
+          "day": "Tue",
+          "date": "7"
+        },
+        {
+          "day": "Wed",
+          "date": "8",
+          "event": "Shab e-Barat",
+          "eventDescription": "It is customary to celebrate this festival on the 14th and 15th nights of the month of Shaban. Shab-e-Barat is considered the holiest night of the Islamic calendar, which is Lailatul-Barat.",
+          "eventImage": "https://bangla.examresultbd.com/wp-content/uploads/2022/03/shab-e-barat.jpg",
+          "music": ""
+        },
+        {
+          "day": "Thu",
+          "date": "9"
+        },
+        {
+          "day": "Fri",
+          "date": "10",
+          "isWeekend": "true"
+        },
+        {
+          "day": "Sat",
+          "date": "11",
+          "isWeekend": "true"
+        },
+        {
+          "day": "Sun",
+          "date": "12"
+        },
+        {
+          "day": "Mon",
+          "date": "13"
+        },
+        {
+          "day": "Tue",
+          "date": "14"
+        },
+        {
+          "day": "Wed",
+          "date": "15"
+        },
+        {
+          "day": "Thu",
+          "date": "16"
+        },
+        {
+          "day": "Fri",
+          "date": "17",
+          "isWeekend": "true",
+          "event": "Sheikh Mujibur Rahman's Birthday",
+          "eventDescription": "Bangabandu Sheikh Mujibur Rahman is considered the father of modern Bangladesh. His birthday is celebrated each year as an opportunity to reflect on the life and impact of Sheikh Mujib.",
+          "eventImage": "https://www.ajkerkhulna.com/media/imgAll/2018November/image-2759-1903171547.jpg",
+          "music": ""
+        },
+        {
+          "day": "Sat",
+          "date": "18",
+          "isWeekend": "true"
+        },
+        {
+          "day": "Sun",
+          "date": "19"
+        },
+        {
+          "day": "Mon",
+          "date": "20"
+        },
+        {
+          "day": "Tue",
+          "date": "21"
+        },
+        {
+          "day": "Wed",
+          "date": "22"
+        },
+        {
+          "day": "Thu",
+          "date": "23"
+        },
+        {
+          "day": "Fri",
+          "date": "24",
+          "isWeekend": "true"
+        },
+        {
+          "day": "Sat",
+          "date": "25",
+          "isWeekend": "true"
+        },
+        {
+          "day": "Sun",
+          "date": "26",
+          "event": "Independence Day",
+          "eventDescription": "Independence Day in Bangladesh is a public holiday every 26 March that commemorates Bangladesh’s separation from Pakistan to become an independent nation. The declaration of Independence came late on the night of 25 March 1971, and was the culmination of a long struggle with the ruling regime in West Pakistan.",
+          "eventImage": "https://www.ekushey-tv.com/media/imgAll/2020June/26-March-2103240847.jpg",
+          "music": ""
+        },
+        {
+          "day": "Mon",
+          "date": "27"
+        },
+        {
+          "day": "Tue",
+          "date": "28"
+        },
+        {
+          "day": "Wed",
+          "date": "29"
+        },
+        {
+          "day": "Thu",
+          "date": "30"
+        },
+        {
+          "day": "Fri",
+          "date": "31",
+          "isWeekend": "true"
+        }
+      ]
+    },
+    {
+      "month": "Apr",
+      "year": "2023",
+      "seasonal_image": "https://ichef.bbci.co.uk/news/640/cpsprodpb/3CEC/production/_101769551_5.alifarefur_thakurgaon.jpg",
+      "data": [
+        {
+          "day": "Sat",
+          "date": "1",
+          "isWeekend": "true"
+        },
+        {
+          "day": "Sun",
+          "date": "2"
+        },
+        {
+          "day": "Mon",
+          "date": "3"
+        },
+        {
+          "day": "Tue",
+          "date": "4"
+        },
+        {
+          "day": "Wed",
+          "date": "5"
+        },
+        {
+          "day": "Thu",
+          "date": "6"
+        },
+        {
+          "day": "Fri",
+          "date": "7",
+          "isWeekend": "true"
+        },
+        {
+          "day": "Sat",
+          "date": "8",
+          "isWeekend": "true"
+        },
+        {
+          "day": "Sun",
+          "date": "9"
+        },
+        {
+          "day": "Mon",
+          "date": "10"
+        },
+        {
+          "day": "Tue",
+          "date": "11"
+        },
+        {
+          "day": "Wed",
+          "date": "12"
+        },
+        {
+          "day": "Thu",
+          "date": "13"
+        },
+        {
+          "day": "Fri",
+          "date": "14",
+          "isWeekend": "true",
+          "event": "Bengali New Year",
+          "eventDescription": "The Bengali New Year celebration is known as “Poila Baisakh” which translates to the first month of the Bengali calendar. It is the first day of the Bengali New Year and usually falls in mid-April. It is a holiday filled with rejuvenation, rebirth and joy, much like new year’s celebrations in most countries around the world.",
+          "eventImage": "https://www.ekushey-tv.com/media/imgAll/2020June/boisak-2104140229.jpg",
+          "music": ""
+        },
+        {
+          "day": "Sat",
+          "date": "15",
+          "isWeekend": "true"
+        },
+        {
+          "day": "Sun",
+          "date": "16"
+        },
+        {
+          "day": "Mon",
+          "date": "17"
+        },
+        {
+          "day": "Tue",
+          "date": "18"
+        },
+        {
+          "day": "Wed",
+          "date": "19",
+          "event": "Laylat al-Qadr",
+          "eventDescription": "Laylat-al-Qadr is otherwise known as the Night of Power and is considered to be the Islamic calendar’s Holiest eve. During this night, Angel Jibril revealed the Holy Quran’s first verses to the Prophet Muhammad (PBUH). This night falls within Ramadan’s final 10 days, and although the exact date is unidentified, it is commonly thought of as the Holy month’s 27th day.",
+          "eventImage": "https://dmpnews.org/wp-content/uploads/2021/05/Kodor-2.jpg",
+          "music": ""
+        },
+        {
+          "day": "Thu",
+          "date": "20"
+        },
+        {
+          "day": "Fri",
+          "date": "21",
+          "isWeekend": "true",
+          "event": "Jumatul Bidah and Eid ul-Fitr",
+          "eventDescription": "In Bangladesh, the first day of Shawwal that breaks the long fast of Ramadan is a national public holiday known as “Eid ul-Fitr”. It is a time of happiness and feasting as well as of prayer and devotion.",
+          "eventImage": "https://www.kalerkantho.com/assets/news_images/2022/05/03/062255eiddd.jpg",
+          "music": ""
+        },
+        {
+          "day": "Sat",
+          "date": "22",
+          "isWeekend": "true",
+          "event": "Eid ul-Fitr",
+          "eventDescription": "In Bangladesh, the first day of Shawwal that breaks the long fast of Ramadan is a national public holiday known as “Eid ul-Fitr”. It is a time of happiness and feasting as well as of prayer and devotion.",
+          "eventImage": "https://www.kalerkantho.com/assets/news_images/2022/05/03/062255eiddd.jpg",
+          "music": ""
+        },
+        {
+          "day": "Sun",
+          "date": "23",
+          "event": "Eid ul-Fitr",
+          "eventDescription": "In Bangladesh, the first day of Shawwal that breaks the long fast of Ramadan is a national public holiday known as “Eid ul-Fitr”. It is a time of happiness and feasting as well as of prayer and devotion.",
+          "eventImage": "https://www.kalerkantho.com/assets/news_images/2022/05/03/062255eiddd.jpg",
+          "music": ""
+        },
+        {
+          "day": "Mon",
+          "date": "24"
+        },
+        {
+          "day": "Tue",
+          "date": "25"
+        },
+        {
+          "day": "Wed",
+          "date": "26"
+        },
+        {
+          "day": "Thu",
+          "date": "27"
+        },
+        {
+          "day": "Fri",
+          "date": "28",
+          "isWeekend": "true"
+        },
+        {
+          "day": "Sat",
+          "date": "29",
+          "isWeekend": "true"
+        },
+        {
+          "day": "Sun",
+          "date": "30"
+        }
+      ]
+    },
+    {
+      "month": "May",
+      "year": "2023",
+      "seasonal_image": "https://bartabazar.com/wp-content/uploads/2019/06/mango.jpg",
+      "data": [
+        {
+          "day": "Mon",
+          "date": "1",
+          "event": "May Day",
+          "eventDescription": "May 1 each year is celebrated as “May Day” or “Workers Day”. Bangladesh is one of only a handful of non-socialist countries that have May Day as a national public holiday.",
+          "eventImage": "https://provatferi.com.au/uploads/shares/2020/may_day-2020-05-01-13-28-48.jpg",
+          "music": ""
+        },
+        {
+          "day": "Tue",
+          "date": "2"
+        },
+        {
+          "day": "Wed",
+          "date": "3"
+        },
+        {
+          "day": "Thu",
+          "date": "4"
+        },
+        {
+          "day": "Fri",
+          "date": "5",
+          "isWeekend": "true",
+          "event": "Buddha Purnima",
+          "eventDescription": "The Buddha Purnima, also referred to as Boishakhi Purnima, is the largest religious festival in Bangladesh held by the Buddhist community. It is celebrated annually on the full moon day that lies in the first month of the Bangla Calendar.",
+          "eventImage": "https://images-bn.thedailystar.net/sites/default/files/styles/big_202/public/images/2022/05/15/buddha_purnima.jpg",
+          "music": ""
+        },
+        {
+          "day": "Sat",
+          "date": "6",
+          "isWeekend": "true"
+        },
+        {
+          "day": "Sun",
+          "date": "7"
+        },
+        {
+          "day": "Mon",
+          "date": "8"
+        },
+        {
+          "day": "Tue",
+          "date": "9"
+        },
+        {
+          "day": "Wed",
+          "date": "10"
+        },
+        {
+          "day": "Thu",
+          "date": "11"
+        },
+        {
+          "day": "Fri",
+          "date": "12",
+          "isWeekend": "true"
+        },
+        {
+          "day": "Sat",
+          "date": "13",
+          "isWeekend": "true"
+        },
+        {
+          "day": "Sun",
+          "date": "14"
+        },
+        {
+          "day": "Mon",
+          "date": "15"
+        },
+        {
+          "day": "Tue",
+          "date": "16"
+        },
+        {
+          "day": "Wed",
+          "date": "17"
+        },
+        {
+          "day": "Thu",
+          "date": "18"
+        },
+        {
+          "day": "Fri",
+          "date": "19",
+          "isWeekend": "true"
+        },
+        {
+          "day": "Sat",
+          "date": "20",
+          "isWeekend": "true"
+        },
+        {
+          "day": "Sun",
+          "date": "21"
+        },
+        {
+          "day": "Mon",
+          "date": "22"
+        },
+        {
+          "day": "Tue",
+          "date": "23"
+        },
+        {
+          "day": "Wed",
+          "date": "24"
+        },
+        {
+          "day": "Thu",
+          "date": "25"
+        },
+        {
+          "day": "Fri",
+          "date": "26",
+          "isWeekend": "true"
+        },
+        {
+          "day": "Sat",
+          "date": "27",
+          "isWeekend": "true"
+        },
+        {
+          "day": "Sun",
+          "date": "28"
+        },
+        {
+          "day": "Mon",
+          "date": "29"
+        },
+        {
+          "day": "Tue",
+          "date": "30"
+        },
+        {
+          "day": "Wed",
+          "date": "31"
+        }
+      ]
+    },
+    {
+      "month": "Jun",
+      "year": "2023",
+      "seasonal_image": "https://www.abnews24.com/assets/news_photos/2021/06/15/image-137234-1623726230.jpg",
+      "data": [
+        {
+          "day": "Thu",
+          "date": "1"
+        },
+        {
+          "day": "Fri",
+          "date": "2",
+          "isWeekend": "true"
+        },
+        {
+          "day": "Sat",
+          "date": "3",
+          "isWeekend": "true"
+        },
+        {
+          "day": "Sun",
+          "date": "4"
+        },
+        {
+          "day": "Mon",
+          "date": "5"
+        },
+        {
+          "day": "Tue",
+          "date": "6"
+        },
+        {
+          "day": "Wed",
+          "date": "7"
+        },
+        {
+          "day": "Thu",
+          "date": "8"
+        },
+        {
+          "day": "Fri",
+          "date": "9",
+          "isWeekend": "true"
+        },
+        {
+          "day": "Sat",
+          "date": "10",
+          "isWeekend": "true"
+        },
+        {
+          "day": "Sun",
+          "date": "11"
+        },
+        {
+          "day": "Mon",
+          "date": "12"
+        },
+        {
+          "day": "Tue",
+          "date": "13"
+        },
+        {
+          "day": "Wed",
+          "date": "14"
+        },
+        {
+          "day": "Thu",
+          "date": "15"
+        },
+        {
+          "day": "Fri",
+          "date": "16",
+          "isWeekend": "true"
+        },
+        {
+          "day": "Sat",
+          "date": "17",
+          "isWeekend": "true"
+        },
+        {
+          "day": "Sun",
+          "date": "18"
+        },
+        {
+          "day": "Mon",
+          "date": "19"
+        },
+        {
+          "day": "Tue",
+          "date": "20"
+        },
+        {
+          "day": "Wed",
+          "date": "21"
+        },
+        {
+          "day": "Thu",
+          "date": "22"
+        },
+        {
+          "day": "Fri",
+          "date": "23",
+          "isWeekend": "true"
+        },
+        {
+          "day": "Sat",
+          "date": "24",
+          "isWeekend": "true"
+        },
+        {
+          "day": "Sun",
+          "date": "25"
+        },
+        {
+          "day": "Mon",
+          "date": "26"
+        },
+        {
+          "day": "Tue",
+          "date": "27"
+        },
+        {
+          "day": "Wed",
+          "date": "28",
+          "event": "Eid ul-Adha",
+          "eventDescription": "In Bangladesh, Eid ul-Adha is a public holiday, commemorating the test of faith passed by Ibrahim according to the Koran.",
+          "eventImage": "https://www.bssnews.net/bangla/assets/news_photos/2022/07/09/image-49563-1657348028.jpg",
+          "music": ""
+        },
+        {
+          "day": "Thu",
+          "date": "29",
+          "event": "Eid ul-Adha",
+          "eventDescription": "In Bangladesh, Eid ul-Adha is a public holiday, commemorating the test of faith passed by Ibrahim according to the Koran.",
+          "eventImage": "https://www.bssnews.net/bangla/assets/news_photos/2022/07/09/image-49563-1657348028.jpg",
+          "music": ""
+        },
+        {
+          "day": "Fri",
+          "date": "30",
+          "isWeekend": "true",
+          "event": "Eid ul-Adha",
+          "eventDescription": "In Bangladesh, Eid ul-Adha is a public holiday, commemorating the test of faith passed by Ibrahim according to the Koran.",
+          "eventImage": "https://www.bssnews.net/bangla/assets/news_photos/2022/07/09/image-49563-1657348028.jpg",
+          "music": ""
+        }
+      ]
+    },
+    {
+      "month": "Jul",
+      "year": "2023",
+      "seasonal_image": "https://i0.wp.com/www.europeantimes.news/wp-content/uploads/2021/05/ca_la_rain_gettyimages-94913098jpg.jpg?resize=1068%2C601&ssl=1",
+      "data": [
+        {
+          "day": "Sat",
+          "date": "1",
+          "isWeekend": "true"
+        },
+        {
+          "day": "Sun",
+          "date": "2"
+        },
+        {
+          "day": "Mon",
+          "date": "3"
+        },
+        {
+          "day": "Tue",
+          "date": "4"
+        },
+        {
+          "day": "Wed",
+          "date": "5"
+        },
+        {
+          "day": "Thu",
+          "date": "6"
+        },
+        {
+          "day": "Fri",
+          "date": "7",
+          "isWeekend": "true"
+        },
+        {
+          "day": "Sat",
+          "date": "8",
+          "isWeekend": "true"
+        },
+        {
+          "day": "Sun",
+          "date": "9"
+        },
+        {
+          "day": "Mon",
+          "date": "10"
+        },
+        {
+          "day": "Tue",
+          "date": "11"
+        },
+        {
+          "day": "Wed",
+          "date": "12"
+        },
+        {
+          "day": "Thu",
+          "date": "13"
+        },
+        {
+          "day": "Fri",
+          "date": "14",
+          "isWeekend": "true"
+        },
+        {
+          "day": "Sat",
+          "date": "15",
+          "isWeekend": "true"
+        },
+        {
+          "day": "Sun",
+          "date": "16"
+        },
+        {
+          "day": "Mon",
+          "date": "17"
+        },
+        {
+          "day": "Tue",
+          "date": "18"
+        },
+        {
+          "day": "Wed",
+          "date": "19"
+        },
+        {
+          "day": "Thu",
+          "date": "20"
+        },
+        {
+          "day": "Fri",
+          "date": "21",
+          "isWeekend": "true"
+        },
+        {
+          "day": "Sat",
+          "date": "22",
+          "isWeekend": "true"
+        },
+        {
+          "day": "Sun",
+          "date": "23"
+        },
+        {
+          "day": "Mon",
+          "date": "24"
+        },
+        {
+          "day": "Tue",
+          "date": "25"
+        },
+        {
+          "day": "Wed",
+          "date": "26"
+        },
+        {
+          "day": "Thu",
+          "date": "27"
+        },
+        {
+          "day": "Fri",
+          "date": "28",
+          "isWeekend": "true"
+        },
+        {
+          "day": "Sat",
+          "date": "29",
+          "isWeekend": "true",
+          "event": "Ashura",
+          "eventDescription": "Ashura falls on the tenth day of the Islamic month of Muharram, and is among the most widely and intensely celebrated of holidays in Muslim lands, including in Bangladesh. Its date will vary, and generally move 11 days earlier each year, on the Gregorian Calendar.",
+          "eventImage": "https://shomoyeralo.com/2022/08/09/salo_1659988233.jpg",
+          "music": ""
+        },
+        {
+          "day": "Sun",
+          "date": "30"
+        },
+        {
+          "day": "Mon",
+          "date": "31"
+        }
+      ]
+    },
+    {
+      "month": "Aug",
+      "year": "2023",
+      "seasonal_image": "https://images.prothomalo.com/prothomalo%2Fimport%2Fmedia%2F2017%2F10%2F07%2F30b2546751e14b9eec704cc7ff77c24e-59d8f548318a8.jpg?auto=format%2Ccompress&format=webp&w=376&dpr=2.6",
+      "data": [
+        {
+          "day": "Tue",
+          "date": "1"
+        },
+        {
+          "day": "Wed",
+          "date": "2"
+        },
+        {
+          "day": "Thu",
+          "date": "3"
+        },
+        {
+          "day": "Fri",
+          "date": "4",
+          "isWeekend": "true"
+        },
+        {
+          "day": "Sat",
+          "date": "5",
+          "isWeekend": "true"
+        },
+        {
+          "day": "Sun",
+          "date": "6"
+        },
+        {
+          "day": "Mon",
+          "date": "7"
+        },
+        {
+          "day": "Tue",
+          "date": "8"
+        },
+        {
+          "day": "Wed",
+          "date": "9"
+        },
+        {
+          "day": "Thu",
+          "date": "10"
+        },
+        {
+          "day": "Fri",
+          "date": "11",
+          "isWeekend": "true"
+        },
+        {
+          "day": "Sat",
+          "date": "12",
+          "isWeekend": "true"
+        },
+        {
+          "day": "Sun",
+          "date": "13"
+        },
+        {
+          "day": "Mon",
+          "date": "14"
+        },
+        {
+          "day": "Tue",
+          "date": "15",
+          "event": "National Mourning Day",
+          "eventDescription": "Every 15 August is National Mourning Day in Bangladesh to remember and mourn the brutal murder of the nation’s first president, Sheikh Mujibur Rahman, who also led the independence movement for East Pakistan (Bangladesh) against West Pakistan.",
+          "eventImage": "https://www.bd-journal.com/assets/news_photos/2020/08/14/image-128542-1597374799bdjournal.jpg",
+          "music": ""
+        },
+        {
+          "day": "Wed",
+          "date": "16"
+        },
+        {
+          "day": "Thu",
+          "date": "17"
+        },
+        {
+          "day": "Fri",
+          "date": "18",
+          "isWeekend": "true"
+        },
+        {
+          "day": "Sat",
+          "date": "19",
+          "isWeekend": "true"
+        },
+        {
+          "day": "Sun",
+          "date": "20"
+        },
+        {
+          "day": "Mon",
+          "date": "21"
+        },
+        {
+          "day": "Tue",
+          "date": "22"
+        },
+        {
+          "day": "Wed",
+          "date": "23"
+        },
+        {
+          "day": "Thu",
+          "date": "24"
+        },
+        {
+          "day": "Fri",
+          "date": "25",
+          "isWeekend": "true"
+        },
+        {
+          "day": "Sat",
+          "date": "26",
+          "isWeekend": "true"
+        },
+        {
+          "day": "Sun",
+          "date": "27"
+        },
+        {
+          "day": "Mon",
+          "date": "28"
+        },
+        {
+          "day": "Tue",
+          "date": "29"
+        },
+        {
+          "day": "Wed",
+          "date": "30"
+        },
+        {
+          "day": "Thu",
+          "date": "31"
+        }
+      ]
+    },
+    {
+      "month": "Sep",
+      "year": "2023",
+      "seasonal_image": "http://bangla.thereport24.com/article_images/2019/08/16/srthh.jpg",
+      "data": [
+        {
+          "day": "Fri",
+          "date": "1",
+          "isWeekend": "true"
+        },
+        {
+          "day": "Sat",
+          "date": "2",
+          "isWeekend": "true"
+        },
+        {
+          "day": "Sun",
+          "date": "3"
+        },
+        {
+          "day": "Mon",
+          "date": "4"
+        },
+        {
+          "day": "Tue",
+          "date": "5"
+        },
+        {
+          "day": "Wed",
+          "date": "6",
+          "event": "Shuba Janmashtami",
+          "eventDescription": "Shuba Janmashtami, also called “Krishna Janmashtami”, is a public holiday in Bangladesh. It is a Hindu religious festival that celebrates the birth of Krishna, believed to be the eighth incarnation of the god Vishnu.",
+          "eventImage": "https://d1mj9ztk1szeae.cloudfront.net/wp-content/uploads/2022/08/Screenshot_149.png",
+          "music": ""
+        },
+        {
+          "day": "Thu",
+          "date": "7"
+        },
+        {
+          "day": "Fri",
+          "date": "8",
+          "isWeekend": "true"
+        },
+        {
+          "day": "Sat",
+          "date": "9",
+          "isWeekend": "true"
+        },
+        {
+          "day": "Sun",
+          "date": "10"
+        },
+        {
+          "day": "Mon",
+          "date": "11"
+        },
+        {
+          "day": "Tue",
+          "date": "12"
+        },
+        {
+          "day": "Wed",
+          "date": "13"
+        },
+        {
+          "day": "Thu",
+          "date": "14"
+        },
+        {
+          "day": "Fri",
+          "date": "15",
+          "isWeekend": "true"
+        },
+        {
+          "day": "Sat",
+          "date": "16",
+          "isWeekend": "true"
+        },
+        {
+          "day": "Sun",
+          "date": "17"
+        },
+        {
+          "day": "Mon",
+          "date": "18"
+        },
+        {
+          "day": "Tue",
+          "date": "19"
+        },
+        {
+          "day": "Wed",
+          "date": "20"
+        },
+        {
+          "day": "Thu",
+          "date": "21"
+        },
+        {
+          "day": "Fri",
+          "date": "22",
+          "isWeekend": "true"
+        },
+        {
+          "day": "Sat",
+          "date": "23",
+          "isWeekend": "true"
+        },
+        {
+          "day": "Sun",
+          "date": "24"
+        },
+        {
+          "day": "Mon",
+          "date": "25"
+        },
+        {
+          "day": "Tue",
+          "date": "26"
+        },
+        {
+          "day": "Wed",
+          "date": "27"
+        },
+        {
+          "day": "Thu",
+          "date": "28",
+          "event": "Eid-e-Milad un-Nabi",
+          "eventDescription": "Prophet Muhammad’s Birthday is a national public holiday in Bangladesh. It comes consistently on the twelfth day of the Islamic month of Rabi ul-Awwal each year, but the holiday occurs 11 days earlier each year on the Gregorian Calendar.",
+          "eventImage": "https://images.mid-day.com/images/images/2022/oct/eid-e-milad-un-nabi-2022-messaages.jpg",
+          "music": ""
+        },
+        {
+          "day": "Fri",
+          "date": "29",
+          "isWeekend": "true"
+        },
+        {
+          "day": "Sat",
+          "date": "30",
+          "isWeekend": "true"
+        }
+      ]
+    },
+    {
+      "month": "Oct",
+      "year": "2023",
+      "seasonal_image": "https://cdn.banglatribune.net/contents/cache/images/640x358x1/uploads/media/2022/10/19/309615803_641866924214818_5258592052901678549_n-42a91fd3e46563a8fab4a83e8ae11fd7.jpg?jadewits_media_id=818749",
+      "data": [
+        {
+          "day": "Sun",
+          "date": "1"
+        },
+        {
+          "day": "Mon",
+          "date": "2"
+        },
+        {
+          "day": "Tue",
+          "date": "3"
+        },
+        {
+          "day": "Wed",
+          "date": "4"
+        },
+        {
+          "day": "Thu",
+          "date": "5"
+        },
+        {
+          "day": "Fri",
+          "date": "6",
+          "isWeekend": "true"
+        },
+        {
+          "day": "Sat",
+          "date": "7",
+          "isWeekend": "true"
+        },
+        {
+          "day": "Sun",
+          "date": "8"
+        },
+        {
+          "day": "Mon",
+          "date": "9"
+        },
+        {
+          "day": "Tue",
+          "date": "10"
+        },
+        {
+          "day": "Wed",
+          "date": "11"
+        },
+        {
+          "day": "Thu",
+          "date": "12"
+        },
+        {
+          "day": "Fri",
+          "date": "13",
+          "isWeekend": "true"
+        },
+        {
+          "day": "Sat",
+          "date": "14",
+          "isWeekend": "true"
+        },
+        {
+          "day": "Sun",
+          "date": "15"
+        },
+        {
+          "day": "Mon",
+          "date": "16"
+        },
+        {
+          "day": "Tue",
+          "date": "17"
+        },
+        {
+          "day": "Wed",
+          "date": "18"
+        },
+        {
+          "day": "Thu",
+          "date": "19"
+        },
+        {
+          "day": "Fri",
+          "date": "20",
+          "isWeekend": "true"
+        },
+        {
+          "day": "Sat",
+          "date": "21",
+          "isWeekend": "true"
+        },
+        {
+          "day": "Sun",
+          "date": "22"
+        },
+        {
+          "day": "Mon",
+          "date": "23"
+        },
+        {
+          "day": "Tue",
+          "date": "24",
+          "event": "Vijaya Dashami",
+          "eventDescription": "Vijaya Dashami is an important annual religious holiday for Hindus in Bangladesh. The holiday falls on the tenth day of the Hindu month of Ashvin, which comes sometime in October or September on the Gregorian Calendar.",
+          "eventImage": "https://www.mohanagar.news/media/imgAll/2022February/Bijaya-dashami-2010260221-2210050458.jpg",
+          "music": ""
+        },
+        {
+          "day": "Wed",
+          "date": "25"
+        },
+        {
+          "day": "Thu",
+          "date": "26"
+        },
+        {
+          "day": "Fri",
+          "date": "27",
+          "isWeekend": "true"
+        },
+        {
+          "day": "Sat",
+          "date": "28",
+          "isWeekend": "true"
+        },
+        {
+          "day": "Sun",
+          "date": "29"
+        },
+        {
+          "day": "Mon",
+          "date": "30"
+        },
+        {
+          "day": "Tue",
+          "date": "31"
+        }
+      ]
+    },
+    {
+      "month": "Nov",
+      "year": "2023",
+      "seasonal_image": "https://cdn.risingbd.com/media/imgAll/2022August/1183474898-2210170450.jpg",
+      "data": [
+        {
+          "day": "Wed",
+          "date": "1"
+        },
+        {
+          "day": "Thu",
+          "date": "2"
+        },
+        {
+          "day": "Fri",
+          "date": "3",
+          "isWeekend": "true"
+        },
+        {
+          "day": "Sat",
+          "date": "4",
+          "isWeekend": "true"
+        },
+        {
+          "day": "Sun",
+          "date": "5"
+        },
+        {
+          "day": "Mon",
+          "date": "6"
+        },
+        {
+          "day": "Tue",
+          "date": "7"
+        },
+        {
+          "day": "Wed",
+          "date": "8"
+        },
+        {
+          "day": "Thu",
+          "date": "9"
+        },
+        {
+          "day": "Fri",
+          "date": "10",
+          "isWeekend": "true"
+        },
+        {
+          "day": "Sat",
+          "date": "11",
+          "isWeekend": "true"
+        },
+        {
+          "day": "Sun",
+          "date": "12"
+        },
+        {
+          "day": "Mon",
+          "date": "13"
+        },
+        {
+          "day": "Tue",
+          "date": "14"
+        },
+        {
+          "day": "Wed",
+          "date": "15"
+        },
+        {
+          "day": "Thu",
+          "date": "16"
+        },
+        {
+          "day": "Fri",
+          "date": "17",
+          "isWeekend": "true"
+        },
+        {
+          "day": "Sat",
+          "date": "18",
+          "isWeekend": "true"
+        },
+        {
+          "day": "Sun",
+          "date": "19"
+        },
+        {
+          "day": "Mon",
+          "date": "20"
+        },
+        {
+          "day": "Tue",
+          "date": "21"
+        },
+        {
+          "day": "Wed",
+          "date": "22"
+        },
+        {
+          "day": "Thu",
+          "date": "23"
+        },
+        {
+          "day": "Fri",
+          "date": "24",
+          "isWeekend": "true"
+        },
+        {
+          "day": "Sat",
+          "date": "25",
+          "isWeekend": "true"
+        },
+        {
+          "day": "Sun",
+          "date": "26"
+        },
+        {
+          "day": "Mon",
+          "date": "27"
+        },
+        {
+          "day": "Tue",
+          "date": "28"
+        },
+        {
+          "day": "Wed",
+          "date": "29"
+        },
+        {
+          "day": "Thu",
+          "date": "30"
+        }
+      ]
+    },
+    {
+      "month": "Dec",
+      "year": "2023",
+      "seasonal_image": "https://1.bp.blogspot.com/-4a68N7_h1j4/XaMm6Kl0WdI/AAAAAAAADjs/EGEbYWd2OPAfZAK-y5TPM9pH_VqBBKYkwCLcBGAsYHQ/s1600/mustard.jpg",
+      "data": [
+        {
+          "day": "Fri",
+          "date": "1",
+          "isWeekend": "true"
+        },
+        {
+          "day": "Sat",
+          "date": "2",
+          "isWeekend": "true"
+        },
+        {
+          "day": "Sun",
+          "date": "3"
+        },
+        {
+          "day": "Mon",
+          "date": "4"
+        },
+        {
+          "day": "Tue",
+          "date": "5"
+        },
+        {
+          "day": "Wed",
+          "date": "6"
+        },
+        {
+          "day": "Thu",
+          "date": "7"
+        },
+        {
+          "day": "Fri",
+          "date": "8",
+          "isWeekend": "true"
+        },
+        {
+          "day": "Sat",
+          "date": "9",
+          "isWeekend": "true"
+        },
+        {
+          "day": "Sun",
+          "date": "10"
+        },
+        {
+          "day": "Mon",
+          "date": "11"
+        },
+        {
+          "day": "Tue",
+          "date": "12"
+        },
+        {
+          "day": "Wed",
+          "date": "13"
+        },
+        {
+          "day": "Thu",
+          "date": "14"
+        },
+        {
+          "day": "Fri",
+          "date": "15",
+          "isWeekend": "true"
+        },
+        {
+          "day": "Sat",
+          "date": "16",
+          "isWeekend": "true",
+          "event": "Victory Day",
+          "eventDescription": "Victory Day is celebrated every 16 December in Bangladesh to mark the anniversary of the surrender of Pakistan’s armed forces in Bangladesh at the end of the 1971 Bangladesh Liberation War.",
+          "eventImage": "https://www.jugantor.com/assets/news_photos/2020/12/08/image-372032-1607370257.jpg",
+          "music": ""
+        },
+        {
+          "day": "Sun",
+          "date": "17"
+        },
+        {
+          "day": "Mon",
+          "date": "18"
+        },
+        {
+          "day": "Tue",
+          "date": "19"
+        },
+        {
+          "day": "Wed",
+          "date": "20"
+        },
+        {
+          "day": "Thu",
+          "date": "21"
+        },
+        {
+          "day": "Fri",
+          "date": "22",
+          "isWeekend": "true"
+        },
+        {
+          "day": "Sat",
+          "date": "23",
+          "isWeekend": "true"
+        },
+        {
+          "day": "Sun",
+          "date": "24"
+        },
+        {
+          "day": "Mon",
+          "date": "25",
+          "event": "Christmas Day",
+          "eventDescription": "Christmas is on the national public holidays calendar in Bangladesh, even though less than a third of a percent of Bangladesh’s people are Christian.",
+          "eventImage": "https://c.ndtvimg.com/2018-12/hudi737o_christmas-santa-claus_625x300_24_December_18.jpg",
+          "music": ""
+        },
+        {
+          "day": "Tue",
+          "date": "26"
+        },
+        {
+          "day": "Wed",
+          "date": "27"
+        },
+        {
+          "day": "Thu",
+          "date": "28"
+        },
+        {
+          "day": "Fri",
+          "date": "29",
+          "isWeekend": "true"
+        },
+        {
+          "day": "Sat",
+          "date": "30",
+          "isWeekend": "true"
+        },
+        {
+          "day": "Sun",
+          "date": "31"
+        }
+      ]
+    }
+  ]
+}
