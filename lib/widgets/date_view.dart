@@ -13,7 +13,8 @@ class DateViewWidget extends StatelessWidget {
   String? month;
   int? dayIndex;
 
-  String? music ;
+  bool? isYearView; // if true then show only month and year
+  String? music;
 
   double? eventRoundPadding;
 
@@ -22,25 +23,25 @@ class DateViewWidget extends StatelessWidget {
     String? eventImage,
     String? eventDescription,
     String? eventDate,
-      String? music
+    String? music,
   ) onEventClick;
 
-  DateViewWidget({
-    super.key,
-    this.date,
-    this.isWeekend,
-    this.day,
-    this.event,
-    this.description,
-    this.image,
-    this.year,
-    this.month,
-    this.isToday = false,
-    required this.onEventClick,
-    this.dayIndex,
-    this.eventRoundPadding = 8,
-    this.music
-  });
+  DateViewWidget(
+      {super.key,
+      this.date,
+      this.isWeekend,
+      this.day,
+      this.event,
+      this.description,
+      this.image,
+      this.year,
+      this.month,
+      this.isToday = false,
+      required this.onEventClick,
+      this.dayIndex,
+      this.eventRoundPadding = 8,
+      this.music,
+      this.isYearView = false});
 
   @override
   Widget build(BuildContext context) {
@@ -58,7 +59,7 @@ class DateViewWidget extends StatelessWidget {
                 AppHelper.calenderDateToReadAbleDate(month) +
                 ", " +
                 year!;
-            onEventClick(event, image, description, _date , music);
+            onEventClick(event, image, description, _date, music);
           }
         },
         child: Container(
@@ -73,7 +74,8 @@ class DateViewWidget extends StatelessWidget {
           child: Center(
               child: Text(
             date!.toString(),
-            style: TextStyle(color: _texColor(), fontSize: 10),
+            style:
+                TextStyle(color: _texColor(), fontSize: isYearView! ? 10 : 16),
           )),
         ),
       ),
@@ -82,11 +84,15 @@ class DateViewWidget extends StatelessWidget {
 
   _backGroundColor() {
     if (isWeekend != null && isWeekend == "true") {
-      if (event != null || isToday == true) {
+      if (isToday == true) {
+        return Colors.blue.withOpacity(0.7);
+      } else if (event != null) {
         return Colors.orange;
       }
       return Colors.black.withOpacity(0.0);
-    } else if (event != null || isToday == true) {
+    } else if (isToday == true) {
+      return Colors.blue.withOpacity(0.7);
+    } else if (event != null) {
       return Colors.orange.withOpacity(1);
     } else {
       return Colors.white;
@@ -96,12 +102,15 @@ class DateViewWidget extends StatelessWidget {
   _texColor() {
     print("isWeekend :: $isWeekend");
 
-    if (day == "fri" || day == "sat") {
+    print("Day .... ${day}");
+
+    if (day!.toLowerCase() == "fri" ||
+        day!.toLowerCase() == "sat" ||
+        day == "শুক্র" ||
+        day == "শনি") {
       if (event != null) {
         return Colors.white;
       }
-      return Colors.red;
-    } else if (isWeekend != null && isWeekend!.toLowerCase() == "true") {
       return Colors.red;
     } else if (event != null || isToday == true) {
       return Colors.white;

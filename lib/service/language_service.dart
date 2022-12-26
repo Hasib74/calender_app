@@ -1,9 +1,6 @@
 import 'package:get/get.dart';
 
-class AppLanguageService  {
-
-
-
+class AppLanguageService {
   //singleton
 
   Language? language = Language.BN;

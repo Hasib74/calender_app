@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:hsbc_calender/sceen/home_screen.dart';
+import 'package:hsbc_calender/sceen/splash_screen.dart';
 import 'package:hsbc_calender/service/language_service.dart';
 
 var languageService = new AppLanguageService();
@@ -43,7 +44,7 @@ class MyApp extends StatelessWidget {
                 height: 2,
                 wordSpacing: 0.6),
           )),
-      home: HomeScreen(),
+      home: SplashScreen(),
     );
   }
 }

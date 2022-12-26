@@ -1,3 +1,4 @@
+import 'package:bangla_utilities/bangla_utilities.dart';
 import 'package:flutter/material.dart';
 import 'package:hsbc_calender/data/calender_model.dart';
 import 'package:intl/intl.dart';
@@ -98,6 +99,7 @@ class _AppCalendarViewState extends State<AppCalendarView> {
                 if (index <= 6) {
                   if (day.toLowerCase() == days![index].toLowerCase()) {
                     _widget = _widget = DateViewWidget(
+                      isYearView: widget.isTwelveMonth,
                       eventRoundPadding: widget.eventRoundPadding,
                       date: _data[dateIndex].date.toString(),
                       isWeekend: _data[dateIndex].isWeekend,
@@ -119,6 +121,7 @@ class _AppCalendarViewState extends State<AppCalendarView> {
                     print("Date ====>  :: ${_data[dateIndex].date.toString()}");
                   } else if (dateIndex != 0) {
                     _widget = DateViewWidget(
+                      isYearView: widget.isTwelveMonth,
                       eventRoundPadding: widget.eventRoundPadding,
                       date: _data[dateIndex].date.toString(),
                       isWeekend: _data[dateIndex].isWeekend,
@@ -142,6 +145,7 @@ class _AppCalendarViewState extends State<AppCalendarView> {
                 } else {
                   if (_data.asMap().keys.contains(dateIndex)) {
                     _widget = DateViewWidget(
+                      isYearView: widget.isTwelveMonth,
                       eventRoundPadding: widget.eventRoundPadding,
                       date: _data[dateIndex].date.toString(),
                       isWeekend: _data[dateIndex].isWeekend,
@@ -236,58 +240,17 @@ class _AppCalendarViewState extends State<AppCalendarView> {
     print("Today Date :: $_todayDate");
     print("Today Month :: ${_todayMonth.toLowerCase()}");
     print("Date :: $date");
-    print("Month :: ${widget.calender!.month!.toLowerCase()}");
+    print("Month :: ${widget.calender.month!.toLowerCase()}");
 
-    if (_todayDate.toLowerCase() == date.toString() &&
-        _todayMonth.toLowerCase() == widget.calender!.month!.toLowerCase()) {
+    if ("${languageService.language == Language.EN ? _todayDate.toLowerCase() : BanglaUtility.getBanglaDay(day: DateTime.now().day, month: DateTime.now().month, year: DateTime.now().year)}" ==
+            date.toString() &&
+        "${languageService.language == Language.EN ? _todayMonth.toLowerCase() : BanglaUtility.getBanglaMonthName(day: DateTime.now().day, month: DateTime.now().month, year: DateTime.now().year)}" ==
+            widget.calender.month!.toLowerCase() &&
+        widget.year ==
+            "${languageService.language == Language.EN ? DateTime.now().year : BanglaUtility.getBanglaYear(year: DateTime.now().year, month: DateTime.now().month, day: DateTime.now().day)}") {
       return true;
     } else {
       return false;
     }
-  }
-
-  String _monthToString(int month) {
-    print("Month :: $month");
-    String? _month = "";
-    switch (month) {
-      case 1:
-        _month = "January";
-        break;
-      case 2:
-        _month = "February";
-        break;
-      case 3:
-        _month = "March";
-        break;
-      case 4:
-        _month = "April";
-        break;
-      case 5:
-        _month = "May";
-        break;
-      case 6:
-        _month = "June";
-        break;
-      case 7:
-        _month = "July";
-        break;
-      case 8:
-        _month = "August";
-        break;
-      case 9:
-        _month = "September";
-        break;
-      case 10:
-        _month = "October";
-        break;
-      case 11:
-        _month = "November";
-        break;
-      case 12:
-        _month = "December";
-        break;
-    }
-
-    return _month;
   }
 }

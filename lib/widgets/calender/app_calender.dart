@@ -1,5 +1,6 @@
 import 'dart:convert';
 
+import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:hsbc_calender/data/calender_model.dart';
@@ -49,6 +50,7 @@ class _AppCalenderState extends State<AppCalender> {
   @override
   Widget build(BuildContext context) {
     print("Sessonal image : ${widget.calender!.seasonalImage}");
+    print("Year ====  : ${widget.calender!.year}");
     return Scaffold(
         backgroundColor: Colors.white,
         body: Column(
@@ -57,11 +59,11 @@ class _AppCalenderState extends State<AppCalender> {
               flex: 1,
               child: Container(
                 width: double.infinity,
-                decoration: BoxDecoration(
-                  image: DecorationImage(
-                    image:
-                        NetworkImage(widget.calender!.seasonalImage.toString()),
-                    fit: BoxFit.cover,
+                child: CachedNetworkImage(
+                  imageUrl: widget.calender!.seasonalImage.toString(),
+                  fit: BoxFit.cover,
+                  placeholder: (context, url) => Center(
+                    child: CircularProgressIndicator(),
                   ),
                 ),
               ),
@@ -76,11 +78,13 @@ class _AppCalenderState extends State<AppCalender> {
                   Text(
                     languageService.language == Language.EN
                         ? AppHelper.calenderDateToReadAbleDate(
-                            widget.calender!.month)
+                                widget.calender!.month) +
+                            ", " +
+                            widget.calender!.year!
                         : "${widget.calender!.month}" +
                             ", " +
                             widget.calender!.year!,
-                    style: TextStyle(fontSize: 16, fontWeight: FontWeight.w500),
+                    style: TextStyle(fontSize: 18, fontWeight: FontWeight.w500),
                   ),
                   Spacer(),
                   InkWell(
@@ -91,9 +95,11 @@ class _AppCalenderState extends State<AppCalender> {
                               builder: (context) => YearCalenderScreen()));
                     },
                     child: Text(
-                     widget.language == Language.EN ?  "Year at a glance" : "বছরের এক নজরে",
+                      widget.language == Language.EN
+                          ? "Year at a glance"
+                          : "বছরের এক নজরে",
                       style: TextStyle(
-                        fontSize: 12,
+                        fontSize: 14,
                         fontWeight: FontWeight.w300,
                       ),
                     ),

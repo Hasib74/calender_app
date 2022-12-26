@@ -1,6 +1,8 @@
 import 'dart:convert';
+import 'package:bangla_utilities/bangla_utilities.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:hsbc_calender/helper/app_helper.dart';
 import 'package:hsbc_calender/service/language_service.dart';
 import 'package:hsbc_calender/widgets/calender/app_calender.dart';
 import '../data/calender_model.dart';
@@ -16,7 +18,14 @@ class HomeScreen extends StatefulWidget {
 class _HomeScreenState extends State<HomeScreen> {
   CalenderModel? calenderModel;
 
-  Future<void> readJson() async {
+  PageController? pageController = new PageController();
+
+  var _banglaDateTime = BanglaUtility.getBanglaDate(
+      day: DateTime.now().day,
+      month: DateTime.now().month,
+      year: DateTime.now().year);
+
+  Future readJson() async {
     final String response = await rootBundle.loadString(
         languageService.language == Language.EN
             ? 'assets/json/date_en.json'
@@ -25,12 +34,39 @@ class _HomeScreenState extends State<HomeScreen> {
     setState(() {
       calenderModel = CalenderModel.fromJson(jsonDecode(response));
     });
+
+    return calenderModel;
   }
 
   @override
   initState() {
-    readJson();
+    readJson().then((value) {
+      _pageViewInitialize();
+    });
+
     super.initState();
+  }
+
+  void _pageViewInitialize() {
+    print(
+        "Bangla now : ${BanglaUtility.getBanglaDateMonthYearSeason(day: DateTime.now().day, month: DateTime.now().month, year: DateTime.now().year)}");
+    print(
+        "Bangla year : ${BanglaUtility.getBanglaMonthName(day: DateTime.now().day, month: DateTime.now().month, year: DateTime.now().year)}");
+    print(
+        "Bangla month : ${BanglaUtility.getBanglaMonth(day: DateTime.now().day, month: DateTime.now().month, year: DateTime.now().year)}");
+    calenderModel!.calender!.forEach((element) {
+      if (element.year.toString() ==
+              "${languageService.language == Language.EN ? DateTime.now().year.toString() : BanglaUtility.getBanglaYear(day: DateTime.now().day, month: DateTime.now().month, year: DateTime.now().year)}" &&
+          AppHelper.calenderDateToReadAbleDate(element.month) ==
+              "${languageService.language == Language.EN ? AppHelper.intMonthToString(DateTime.now().month) : BanglaUtility.getBanglaMonthName(month: DateTime.now().month, year: DateTime.now().year, day: DateTime.now().day)}") {
+        if (pageController !=null && pageController!.hasClients) {
+          pageController!.jumpToPage(calenderModel!.calender!.indexOf(element));
+        } else {
+          pageController = new PageController(
+              initialPage: calenderModel!.calender!.indexOf(element));
+        }
+      }
+    });
   }
 
   @override
@@ -40,13 +76,22 @@ class _HomeScreenState extends State<HomeScreen> {
         backgroundColor: Colors.white,
         elevation: 0,
         title: const Text(
-          'GDN calendar',
-          style: TextStyle(color: Colors.black),
+          'SKF calendar',
+          style: TextStyle(
+              color: Colors.black, fontWeight: FontWeight.bold, fontSize: 20),
         ),
-        leading: Icon(
-          Icons.notifications_none_sharp,
-          color: Colors.black,
-          size: 30,
+        leading: Row(
+          children: [
+            SizedBox(
+              width: 10,
+            ),
+            Image(
+              image: AssetImage(
+                'assets/logo/skf.png',
+              ),
+              width: 44,
+            )
+          ],
         ),
         actions: [
           Padding(
@@ -58,13 +103,17 @@ class _HomeScreenState extends State<HomeScreen> {
                         ? Language.EN
                         : Language.BN);
 
-                readJson();
+                readJson().then((value) => _pageViewInitialize());
 
                 setState(() {});
               },
-              child: Text(
-                languageService.language == Language.BN ? "English" : "বাংলা",
-                style: TextStyle(color: Colors.black),
+              child: Padding(
+                padding: const EdgeInsets.only(top: 6),
+                child: Text(
+                  languageService.language == Language.BN ? "English" : "বাংলা",
+                  style: TextStyle(color: Colors.blue),
+                  textAlign: TextAlign.end,
+                ),
               ),
             ),
           )
@@ -73,6 +122,7 @@ class _HomeScreenState extends State<HomeScreen> {
       body: calenderModel == null
           ? const CircularProgressIndicator()
           : PageView.builder(
+              controller: pageController,
               itemCount: calenderModel!.calender!.length,
               itemBuilder: (context, index) {
                 return AppCalender(

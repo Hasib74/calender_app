@@ -38,59 +38,120 @@ class _YearCalenderScreenState extends State<YearCalenderScreen> {
 
   @override
   Widget build(BuildContext context) {
+    List _years = calenderModel!.calender!.map((e) => e.year).toList();
+
+    _years = _years.toSet().toList();
+
+    print("Years : $_years");
+
     return Scaffold(
         backgroundColor: Colors.white,
+        appBar: AppBar(
+          backgroundColor: Colors.transparent,
+          elevation: 0,
+          leading: InkWell(
+              onTap: () {
+                Navigator.pop(context);
+              },
+              child: Icon(
+                Icons.arrow_back_ios,
+                color: Colors.black,
+              )),
+          title: Text(
+            languageService.language == Language.EN
+                ? "Year at a glance"
+                : "বছরের এক নজরে",
+            style: TextStyle(
+              fontSize: 20,
+              color: Colors.black,
+              fontWeight: FontWeight.w500,
+            ),
+          ),
+        ),
         body: calenderModel == null
             ? const CircularProgressIndicator()
             : SafeArea(
                 child: Padding(
-                  padding: const EdgeInsets.all(8.0),
-                  child: Column(
-                    children: [
-                      Text(calenderModel!.calender![0].year.toString(),
-                          style: Theme.of(context).textTheme.headline1),
-                      SizedBox(
-                        height: 16,
-                      ),
-                      Expanded(
-                        child: GridView.count(
-                            crossAxisCount: 2,
-                            childAspectRatio: 1,
-                            mainAxisSpacing: 16,
-                            crossAxisSpacing: 16,
-                            children: List.generate(
-                                calenderModel!.calender!.length, (index) {
-                              return Column(
-                                crossAxisAlignment: CrossAxisAlignment.start,
-                                children: [
-                                  Text(
-                                    languageService.language == Language.BN
-                                        ? "${calenderModel!.calender![index].month}"
-                                        : AppHelper.calenderDateToReadAbleDate(
-                                                calenderModel!
-                                                    .calender![index].month)
-                                            .toString(),
-                                    style: TextStyle(
-                                        color: Colors.black,
-                                        fontSize: 14,
-                                        fontWeight: FontWeight.w500),
-                                  ),
-                                  Expanded(
-                                      child: AppCalendarView(
-                                    month:
-                                        calenderModel!.calender![index].month,
-                                    year: calenderModel!.calender![index].year,
-                                    eventRoundPadding: 2,
-                                    isTwelveMonth: true,
-                                    calender: calenderModel!.calender![index],
-                                  )),
-                                ],
-                              );
-                            })),
-                      ),
-                    ],
-                  ),
-                ),
+                    padding: const EdgeInsets.all(8.0),
+                    child: SizedBox(
+                      width: MediaQuery.of(context).size.width,
+                      height: MediaQuery.of(context).size.height,
+                      child: ListView.separated(
+                          itemBuilder: (context, int index) {
+                            return Column(
+                              children: [
+                                SizedBox(
+                                  height: 16,
+                                ),
+                                Text(
+                                  "${_years[index]}",
+                                  style: TextStyle(
+                                      fontSize: 20,
+                                      fontWeight: FontWeight.bold),
+                                ),
+                                SizedBox(
+                                  height: 16,
+                                ),
+                                _calenderList(
+                                    context,
+                                    _years[index],
+                                    calenderModel!.calender!
+                                        .where((element) =>
+                                            element.year == _years[index])
+                                        .toList())
+                              ],
+                            );
+                          },
+                          separatorBuilder: (context, int index) {
+                            return SizedBox(
+                              height: 10,
+                            );
+                          },
+                          itemCount: _years.length),
+                    )),
               ));
+  }
+
+  _calenderList(
+      BuildContext context, String years, List<Calender> calenderList) {
+    return Container(
+      //height: 200,
+      child: GridView.count(
+          shrinkWrap: true,
+          physics: NeverScrollableScrollPhysics(),
+          // to disable GridView's scrolling
+
+          crossAxisCount: 2,
+          childAspectRatio: 1,
+          mainAxisSpacing: 16,
+          crossAxisSpacing: 16,
+          children: List.generate(calenderList.length, (index) {
+            return Column(
+              mainAxisSize: MainAxisSize.min,
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                Text(
+                  languageService.language == Language.BN
+                      ? "${calenderList[index].month}"
+                      : AppHelper.calenderDateToReadAbleDate(
+                              calenderList[index].month)
+                          .toString(),
+                  style: TextStyle(
+                      color: Colors.black,
+                      fontSize: 14,
+                      fontWeight: FontWeight.w500),
+                ),
+                Expanded(
+                    child: AppCalendarView(
+                  month: calenderList[index].month,
+                  year: calenderList[index].year,
+                  eventRoundPadding: 2,
+                  isTwelveMonth: true,
+                  calender: calenderList[index],
+                )),
+              ],
+            );
+          })),
+    );
   }
 }
