@@ -3,7 +3,7 @@ import 'package:get/get.dart';
 class AppLanguageService {
   //singleton
 
-  Language? language = Language.BN;
+  Language? language = Language.EN;
 
   static final AppLanguageService _languageService =
       AppLanguageService._internal();

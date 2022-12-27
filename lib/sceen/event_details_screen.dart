@@ -1,3 +1,4 @@
+import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:just_audio/just_audio.dart';
 
@@ -89,11 +90,12 @@ class _EventDetailsScreenState extends State<EventDetailsScreen> {
                 child: Stack(
                   children: [
                     Positioned.fill(
-                        child: Image(
-                            fit: BoxFit.cover,
-                            image: NetworkImage(widget.eventImage!))),
+                        child: CachedNetworkImage(
+                          fit: BoxFit.cover,
+                      imageUrl: widget.eventImage!,
+                    )),
                     Positioned(
-                      top: 16 * 2,
+                      top: 16 * 3,
                       left: 16,
                       child: Container(
                         height: 30,

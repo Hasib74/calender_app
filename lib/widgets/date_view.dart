@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:hsbc_calender/helper/app_helper.dart';
+
+import '../helper/app_helper.dart';
 
 class DateViewWidget extends StatelessWidget {
   String? date;

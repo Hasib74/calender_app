@@ -1,8 +1,8 @@
 import 'package:bangla_utilities/bangla_utilities.dart';
 import 'package:flutter/material.dart';
-import 'package:hsbc_calender/data/calender_model.dart';
 import 'package:intl/intl.dart';
 
+import '../../data/calender_model.dart';
 import '../../main.dart';
 import '../../sceen/event_details_screen.dart';
 import '../../service/language_service.dart';
@@ -242,12 +242,12 @@ class _AppCalendarViewState extends State<AppCalendarView> {
     print("Date :: $date");
     print("Month :: ${widget.calender.month!.toLowerCase()}");
 
-    if ("${languageService.language == Language.EN ? _todayDate.toLowerCase() : BanglaUtility.getBanglaDay(day: DateTime.now().day, month: DateTime.now().month, year: DateTime.now().year)}" ==
+    if ("${languageService.language == Language.EN ? _todayDate.toLowerCase() : BanglaUtility.getBanglaDay(day: DateTime.now().day-1, month: DateTime.now().month, year: DateTime.now().year)}" ==
             date.toString() &&
-        "${languageService.language == Language.EN ? _todayMonth.toLowerCase() : BanglaUtility.getBanglaMonthName(day: DateTime.now().day, month: DateTime.now().month, year: DateTime.now().year)}" ==
+        "${languageService.language == Language.EN ? _todayMonth.toLowerCase() : BanglaUtility.getBanglaMonthName(day: DateTime.now().day-1, month: DateTime.now().month, year: DateTime.now().year)}" ==
             widget.calender.month!.toLowerCase() &&
         widget.year ==
-            "${languageService.language == Language.EN ? DateTime.now().year : BanglaUtility.getBanglaYear(year: DateTime.now().year, month: DateTime.now().month, day: DateTime.now().day)}") {
+            "${languageService.language == Language.EN ? DateTime.now().year : BanglaUtility.getBanglaYear(year: DateTime.now().year, month: DateTime.now().month, day: DateTime.now().day-1)}") {
       return true;
     } else {
       return false;

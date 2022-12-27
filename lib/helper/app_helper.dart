@@ -1,5 +1,5 @@
-import 'package:hsbc_calender/main.dart';
-import 'package:hsbc_calender/service/language_service.dart';
+import '../main.dart';
+import '../service/language_service.dart';
 
 class AppHelper {
   static String calenderDateToReadAbleDate(String? month) {
@@ -53,7 +53,7 @@ class AppHelper {
     return _month!;
   }
 
- static String intMonthToString(int month) {
+  static String intMonthToString(int month) {
     print("Month :: $month");
     String? _month = "";
     switch (month) {

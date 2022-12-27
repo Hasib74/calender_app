@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:hsbc_calender/sceen/home_screen.dart';
+
+import 'home_screen.dart';
 
 class SplashScreen extends StatelessWidget {
   const SplashScreen({Key? key}) : super(key: key);

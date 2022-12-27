@@ -3,15 +3,14 @@ import 'dart:convert';
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:hsbc_calender/data/calender_model.dart';
-import 'package:hsbc_calender/sceen/year_calender_screen.dart';
-import 'package:hsbc_calender/service/language_service.dart';
-import 'package:hsbc_calender/widgets/calender/calendar_view.dart';
-import 'package:intl/intl.dart';
 
+import '../../data/calender_model.dart';
 import '../../helper/app_helper.dart';
 import '../../main.dart';
+import '../../sceen/year_calender_screen.dart';
+import '../../service/language_service.dart';
 import '../date_view.dart';
+import 'calendar_view.dart';
 
 class AppCalender extends StatefulWidget {
   Language? language;
@@ -100,6 +99,7 @@ class _AppCalenderState extends State<AppCalender> {
                           : "বছরের এক নজরে",
                       style: TextStyle(
                         fontSize: 14,
+                        color: Colors.blue,
                         fontWeight: FontWeight.w300,
                       ),
                     ),

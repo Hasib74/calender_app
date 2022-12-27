@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:hsbc_calender/sceen/home_screen.dart';
-import 'package:hsbc_calender/sceen/splash_screen.dart';
-import 'package:hsbc_calender/service/language_service.dart';
+import 'package:skf_calender/sceen/splash_screen.dart';
+import 'package:skf_calender/service/language_service.dart';
 
 var languageService = new AppLanguageService();
 

@@ -2,11 +2,11 @@ import 'dart:convert';
 import 'package:bangla_utilities/bangla_utilities.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:hsbc_calender/helper/app_helper.dart';
-import 'package:hsbc_calender/service/language_service.dart';
-import 'package:hsbc_calender/widgets/calender/app_calender.dart';
 import '../data/calender_model.dart';
+import '../helper/app_helper.dart';
 import '../main.dart';
+import '../service/language_service.dart';
+import '../widgets/calender/app_calender.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({Key? key}) : super(key: key);
@@ -59,7 +59,7 @@ class _HomeScreenState extends State<HomeScreen> {
               "${languageService.language == Language.EN ? DateTime.now().year.toString() : BanglaUtility.getBanglaYear(day: DateTime.now().day, month: DateTime.now().month, year: DateTime.now().year)}" &&
           AppHelper.calenderDateToReadAbleDate(element.month) ==
               "${languageService.language == Language.EN ? AppHelper.intMonthToString(DateTime.now().month) : BanglaUtility.getBanglaMonthName(month: DateTime.now().month, year: DateTime.now().year, day: DateTime.now().day)}") {
-        if (pageController !=null && pageController!.hasClients) {
+        if (pageController != null && pageController!.hasClients) {
           pageController!.jumpToPage(calenderModel!.calender!.indexOf(element));
         } else {
           pageController = new PageController(
@@ -75,11 +75,6 @@ class _HomeScreenState extends State<HomeScreen> {
       appBar: AppBar(
         backgroundColor: Colors.white,
         elevation: 0,
-        title: const Text(
-          'SKF calendar',
-          style: TextStyle(
-              color: Colors.black, fontWeight: FontWeight.bold, fontSize: 20),
-        ),
         leading: Row(
           children: [
             SizedBox(
