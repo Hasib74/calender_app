@@ -39,7 +39,7 @@ dependencies:
   intl:
   get:
   just_audio:
-  bangla_utilities: ^1.0.0
+  #bangla_utilities:
   cached_network_image:
 
 

@@ -1,9 +1,9 @@
-import 'package:bangla_utilities/bangla_utilities.dart';
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
 
 import '../../data/calender_model.dart';
 import '../../main.dart';
+import '../../packages/bangla_utilities.dart';
 import '../../sceen/event_details_screen.dart';
 import '../../service/language_service.dart';
 import '../date_view.dart';

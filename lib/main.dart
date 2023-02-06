@@ -17,7 +17,17 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Demo',
       theme: ThemeData(
-          primarySwatch: Colors.blue,
+          primarySwatch: MaterialColor(0xff3C8FB6, {
+            50: Color(0xff3C8FB6).withOpacity(0.1),
+            100: Color(0xff3C8FB6).withOpacity(0.2),
+            200: Color(0xff3C8FB6).withOpacity(0.3),
+            300: Color(0xff3C8FB6).withOpacity(0.4),
+            350: Color(0xff3C8FB6).withOpacity(0.5),
+            400: Color(0xff3C8FB6).withOpacity(0.6),
+            500: Color(0xff3C8FB6).withOpacity(0.7),
+            600: Color(0xff3C8FB6).withOpacity(0.8),
+            700: Color(0xff3C8FB6).withOpacity(0.9),
+          }),
           textTheme: TextTheme(
             headline1: TextStyle(
                 fontSize: 18.0,
