@@ -10,8 +10,11 @@ class SplashScreen extends StatelessWidget {
     _navigateToHomeScreen(context);
     return const Scaffold(
       body: Center(
-        child: Image(
-          image: AssetImage("assets/logo/skf.png"),
+        child: Padding(
+          padding: EdgeInsets.all(30),
+          child: Image(
+            image: AssetImage("assets/logo/skf.png"),
+          ),
         ),
       ),
     );

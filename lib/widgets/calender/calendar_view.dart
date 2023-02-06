@@ -182,6 +182,7 @@ class _AppCalendarViewState extends State<AppCalendarView> {
     print("Event : $event");
     print("Event Image : $eventImage");
     print("Event Description : $eventDescription");
+    print("Event Music : ${music!.isNotEmpty}");
 
     showBottomSheet(
         context: context,
@@ -242,12 +243,12 @@ class _AppCalendarViewState extends State<AppCalendarView> {
     print("Date :: $date");
     print("Month :: ${widget.calender.month!.toLowerCase()}");
 
-    if ("${languageService.language == Language.EN ? _todayDate.toLowerCase() : BanglaUtility.getBanglaDay(day: DateTime.now().day-1, month: DateTime.now().month, year: DateTime.now().year)}" ==
+    if ("${languageService.language == Language.EN ? _todayDate.toLowerCase() : BanglaUtility.getBanglaDay(day: DateTime.now().day - 1, month: DateTime.now().month, year: DateTime.now().year)}" ==
             date.toString() &&
-        "${languageService.language == Language.EN ? _todayMonth.toLowerCase() : BanglaUtility.getBanglaMonthName(day: DateTime.now().day-1, month: DateTime.now().month, year: DateTime.now().year)}" ==
+        "${languageService.language == Language.EN ? _todayMonth.toLowerCase() : BanglaUtility.getBanglaMonthName(day: DateTime.now().day - 1, month: DateTime.now().month, year: DateTime.now().year)}" ==
             widget.calender.month!.toLowerCase() &&
         widget.year ==
-            "${languageService.language == Language.EN ? DateTime.now().year : BanglaUtility.getBanglaYear(year: DateTime.now().year, month: DateTime.now().month, day: DateTime.now().day-1)}") {
+            "${languageService.language == Language.EN ? DateTime.now().year : BanglaUtility.getBanglaYear(year: DateTime.now().year, month: DateTime.now().month, day: DateTime.now().day - 1)}") {
       return true;
     } else {
       return false;

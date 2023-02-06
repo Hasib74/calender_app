@@ -287,7 +287,7 @@
     {
       "month": "Jan",
       "year": "2023",
-      "seasonal_image": "https://www.dhakatimes24.com/assets/news_photos/2022/01/21/image-246922.jpg",
+      "seasonal_image": "https://scontent.fdac24-3.fna.fbcdn.net/v/t1.18169-9/1238143_10202248907090844_1841373412_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=8631f5&_nc_ohc=iJrWJRkGz7wAX9uFRtP&_nc_ht=scontent.fdac24-3.fna&oh=00_AfAku87_zyuxl4rX8L1ic-XcdB20h8GOYpWVhEBK8tAt2w&oe=640808CA",
       "data": [
         {
           "day": "Sun",
@@ -426,7 +426,7 @@
     {
       "month": "Feb",
       "year": "2023",
-      "seasonal_image": "https://sylheterdak.com.bd/files/uploads/2022/04/image-393112-1613250400.jpg",
+      "seasonal_image": "https://thedailynewnation.com/library/1645721340_0.jpg",
       "data": [
         {
           "day": "Wed",
@@ -520,7 +520,7 @@
           "event": "Shaheed Day",
           "eventDescription": "Bangladesh celebrates Shaheed Day on 21 February each year. This is a very solemn holiday that remembers the bravery and death of Dhaka University students who fought to keep Bengali as the national language. It is a day of national mourning to honour the memory of the nation’s “martyrs”.",
           "eventImage": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Shaheed_Minar.JPG",
-          "music": ""
+          "music": "https://download.music.com.bd/Music/D/Deshattobodhok%20Gaan/Amar%20Vaier%20Rokte%20Rangano%20(music.com.bd).mp3"
         },
         {
           "day": "Wed",
@@ -557,7 +557,7 @@
     {
       "month": "Mar",
       "year": "2023",
-      "seasonal_image": "https://images.prothomalo.com/prothomalo%2Fimport%2Fmedia%2F2016%2F04%2F17%2Fc69da423e7332bd07fd5d5909f1bfaf7-15.jpg?auto=format%2Ccompress&format=webp&w=376&dpr=2.6",
+      "seasonal_image": "https://www.sps-edu.org/uploads/gallery/media/26-march-picture-2022-1646244000.jpg",
       "data": [
         {
           "day": "Wed",
@@ -587,7 +587,11 @@
         },
         {
           "day": "Tue",
-          "date": "7"
+          "date": "7",
+          "event": "7 March Speech of Bangabandhu",
+          "eventDescription": "The 7 March Speech of Bangabandhu was a public speech given by Sheikh Mujibur Rahman, the Founding Father of Bangladesh on 7 March 1971 at the Ramna Race Course in Dhaka to a gathering of over two million people",
+          "eventImage": "https://www.localguidesconnect.com/t5/image/serverpage/image-id/445230i81EDA09424039E2C/image-size/large?v=v2&px=999",
+          "music": "https://gold.mukto-mona.com/1971/7th_march/7thMarchSpeech.mp3"
         },
         {
           "day": "Wed",
@@ -709,7 +713,7 @@
     {
       "month": "Apr",
       "year": "2023",
-      "seasonal_image": "https://ichef.bbci.co.uk/news/640/cpsprodpb/3CEC/production/_101769551_5.alifarefur_thakurgaon.jpg",
+      "seasonal_image": "https://akm-img-a-in.tosshub.com/indiatoday/images/photogallery/202204/Bengali_New_Year__6__IT_1650005018368.jpg?VersionId=Ei4AMOEGq16Lu8YGKMjE0b15LhNXcsHd&size=1080:*",
       "data": [
         {
           "day": "Sat",
@@ -865,7 +869,7 @@
     {
       "month": "May",
       "year": "2023",
-      "seasonal_image": "https://bartabazar.com/wp-content/uploads/2019/06/mango.jpg",
+      "seasonal_image": "https://static.officeholidays.com/images/935x475c/bangladesh-labour-day-01.jpg",
       "data": [
         {
           "day": "Mon",
@@ -1012,7 +1016,7 @@
     {
       "month": "Jun",
       "year": "2023",
-      "seasonal_image": "https://www.abnews24.com/assets/news_photos/2021/06/15/image-137234-1623726230.jpg",
+      "seasonal_image": "https://www.police.gov.bd/storage/upload/gallery/q4qZqYT4xiYXFlWjPRqF6Z0Jd7c8eMMDBCOHDIfh.jpg",
       "data": [
         {
           "day": "Thu",
@@ -1160,7 +1164,7 @@
     {
       "month": "Jul",
       "year": "2023",
-      "seasonal_image": "https://i0.wp.com/www.europeantimes.news/wp-content/uploads/2021/05/ca_la_rain_gettyimages-94913098jpg.jpg?resize=1068%2C601&ssl=1",
+      "seasonal_image": "https://observerbd.com/2022/10/01/observerbd.com_1664557262.jpg",
       "data": [
         {
           "day": "Sat",
@@ -1304,7 +1308,7 @@
     {
       "month": "Aug",
       "year": "2023",
-      "seasonal_image": "https://images.prothomalo.com/prothomalo%2Fimport%2Fmedia%2F2017%2F10%2F07%2F30b2546751e14b9eec704cc7ff77c24e-59d8f548318a8.jpg?auto=format%2Ccompress&format=webp&w=376&dpr=2.6",
+      "seasonal_image": "https://tourist.police.gov.bd/public/font/uploads/slider/623c3128cda8c22-03-24-08-51-527d2a6bbb9493bb03f023c96ffc450524.jpg",
       "data": [
         {
           "day": "Tue",
@@ -1447,7 +1451,7 @@
     {
       "month": "Sep",
       "year": "2023",
-      "seasonal_image": "http://bangla.thereport24.com/article_images/2019/08/16/srthh.jpg",
+      "seasonal_image": "https://thedailynewnation.com/library/1573226098_6.jpg",
       "data": [
         {
           "day": "Fri",
@@ -1592,7 +1596,7 @@
     {
       "month": "Oct",
       "year": "2023",
-      "seasonal_image": "https://cdn.banglatribune.net/contents/cache/images/640x358x1/uploads/media/2022/10/19/309615803_641866924214818_5258592052901678549_n-42a91fd3e46563a8fab4a83e8ae11fd7.jpg?jadewits_media_id=818749",
+      "seasonal_image": "https://gumlet.assettype.com/bdnews24-english%2Fimport%2Fmedia%2F2015%2F07%2F23%2Ftourist-police.jpg?auto=format%2Ccompress&fmt=webp&format=webp&w=940",
       "data": [
         {
           "day": "Sun",
@@ -1735,7 +1739,7 @@
     {
       "month": "Nov",
       "year": "2023",
-      "seasonal_image": "https://cdn.risingbd.com/media/imgAll/2022August/1183474898-2210170450.jpg",
+      "seasonal_image": "https://www.bssnews.net/assets/news_photos/2022/10/11/image-87304-1665485417.jpg",
       "data": [
         {
           "day": "Wed",
@@ -1870,7 +1874,7 @@
     {
       "month": "Dec",
       "year": "2023",
-      "seasonal_image": "https://1.bp.blogspot.com/-4a68N7_h1j4/XaMm6Kl0WdI/AAAAAAAADjs/EGEbYWd2OPAfZAK-y5TPM9pH_VqBBKYkwCLcBGAsYHQ/s1600/mustard.jpg",
+      "seasonal_image": "https://shampratikdeshkal.com/uploads/2022/10/online/photos/TP_Cox-bazar-634af02a5d559.jpg",
       "data": [
         {
           "day": "Fri",

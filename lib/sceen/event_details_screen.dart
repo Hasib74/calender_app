@@ -33,13 +33,14 @@ class _EventDetailsScreenState extends State<EventDetailsScreen> {
   void initState() {
     // TODO: implement initState
 
-    _player = AudioPlayer();
-
-    _loadMusic().then((value) {
-      if (_player != null) {
-        _player!.play();
-      }
-    });
+    if (widget.music != null && widget.music!.isNotEmpty) {
+      _player = AudioPlayer();
+      _loadMusic().then((value) {
+        if (_player != null) {
+          _player!.play();
+        }
+      });
+    }
 
     super.initState();
   }
@@ -48,9 +49,11 @@ class _EventDetailsScreenState extends State<EventDetailsScreen> {
   void dispose() {
     // TODO: implement dispose
 
-    if (_player != null) {
-      _player!.stop();
-      _player!.dispose();
+    if (widget.music != null && widget.music!.isNotEmpty) {
+      if (_player != null) {
+        _player!.stop();
+        _player!.dispose();
+      }
     }
     super.dispose();
   }
@@ -65,20 +68,21 @@ class _EventDetailsScreenState extends State<EventDetailsScreen> {
   void didUpdateWidget(covariant EventDetailsScreen oldWidget) {
     // TODO: implement didUpdateWidget
 
-    _player = AudioPlayer();
-
-    _loadMusic().then((value) {
-      if (_player != null) {
-        _player!.play();
-      }
-    });
+    if (widget.music != null && widget.music!.isNotEmpty) {
+      _player = AudioPlayer();
+      _loadMusic().then((value) {
+        if (_player != null) {
+          _player!.play();
+        }
+      });
+    }
 
     super.didUpdateWidget(oldWidget);
   }
 
   @override
   Widget build(BuildContext context) {
-    print("Music url : ${widget.music}");
+    // print("Music url : ${widget.music}");
     return Scaffold(
       body: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
@@ -91,7 +95,7 @@ class _EventDetailsScreenState extends State<EventDetailsScreen> {
                   children: [
                     Positioned.fill(
                         child: CachedNetworkImage(
-                          fit: BoxFit.cover,
+                      fit: BoxFit.cover,
                       imageUrl: widget.eventImage!,
                     )),
                     Positioned(
@@ -159,6 +163,6 @@ class _EventDetailsScreenState extends State<EventDetailsScreen> {
   }
 
   Future _loadMusic() async {
-    _player!.setUrl(widget.music!);
+    await _player!.setUrl(widget.music!);
   }
 }
